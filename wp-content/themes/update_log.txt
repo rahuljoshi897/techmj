@@ -1,0 +1,510 @@
+     ___________________________________________
+    |   __  _ ___  _   _   __  __ __  __   __   |
+    |  |  \| | __|| | | |/' _/|  V  |/  \ / _]  |
+    |  | | ' | _| | 'V' |`._`.| \_/ | /\ | [/\  |
+    |  |_|\__|___|!_/ \_!|___/|_| |_|_||_|\__/  |
+    |___________________________________________|
+ 
+  ~ tagDiv 2016 ~
+
+    Thanks for your support and feel free to contact us any time :) 
+    http://forum.tagdiv.com - support forum
+	http://tagdiv.com
+
+	Made with love by:
+  ~ Marius, Alin, Nicu, Radu, Emil, Alina S., Alina G., Lucian, Bogdan, Catalin, Cristi and Simion ~
+
+  
+[ Version 4.0 ]   
+- new: Challenging you to be more creative and productive, we’ve added the first page builder ever created for blogs, news and magazine websites. Newsmag 4 brings you tagDiv Composer - a lighter, faster and more efficient way to build your site. Ready to be used right on the frontend, easier than ever, seeing every change instantly.
+- new: Live frontend LESS and CSS editor. This allows you to quickly add CSS or LESS quick to any page of your site
+- new: News Magazine demo
+- new: Clear Voice demo
+- new: Sound Square demo
+- new: buttons that are available in the format menu
+
+  
+  
+[ Version 3.4 ] 
+- new: speed booster plugin version. Please update it if you use it.
+- new: options for google font weights and styles. The theme will only load the needed font weights and styles from now on
+- improvement: better plugin descriptions and help text
+- improvement: all big grids now show a nice error message when they don't fit in the layout of the site. (when used on one column or two)
+- fix: added various missing translations to the translation panel
+- fix: some block templates where not able to change color on firefox due to a scoped style
+- fix: we removed the offset from ajax requests, this provides a better user experience with the theme and the filters
+- fix: the global modal window now ignores pictures with external links. Before this update, the modal windows was trying to open the external link
+- fix: the jetpack sorting method on blocks now works as expected again
+- fix: instagram images aligment issues
+- fix: all embeds that overflow content on small screens are now fixed
+- improvement: theme panel layout and spacing is much improved now
+- improvement: inline ad displays at the last paragraph whenever there are not as many paragraphs mentioned in After Paragraph field and the article bottom ad is not active
+- improvement: we updated the list of compatible plugins in the theme
+- fix: update the instagram icon
+- fix: the password reset link that was sent from our login modal window was not working
+- fix: we switched to https all the post sharing links
+- fix: the not secured warning in chrome only appears now when the login box is opened
+- fix: theme action error in the status panel when the theme is already activated
+- fix: featured images from vimeo videos are now larger
+- fix: ajax login works now via https
+- fix: the sample plugin that shows how to add new modules and blocks works as expected now. It was giving a fatal error
+
+
+[ Version 3.3 ]
+- improvement: Visual Composer plugin updated to the latest version 5.0.1
+- improvement: Revolution Slider plugin updated to the latest version
+- improvement: full compatibility with WordPress 4.7
+- new: The Plugin Page from where a user installs the included plugins was completely redesigned to be more user friendly.
+- new: added support for block templates overwritten via the Theme API system in demos. All future demos can now load different block templates if needed.
+- new: the comment form is now validated with javascript. This was a long requested feature and we are very happy how it turned out.
+- new: the select header section was redesigned to use icons instead of just text
+- improvement: css fixes in the theme panel and the welcome screen
+- improvement: we finally updated the social icons and we also removed the icons for dead services (picasa, Posterous etc)
+- improvement: the Social Networks panel now checks each input to be correct, this prevents user error and bad URL's that supposed to go to social networks profiles but instead go to 404 pages on the site
+- improvement: we removed the max-width from srcset on images and the responsive images on mobile now work as expected
+- improvement: translation panel information text
+- improvement: on android, when a user uses the mobile search, it will autofocus on the input field now
+- fix: password protected comments now work as expected
+- fix: facebook videos that are in the content of the post now work and resize as expected
+- fix: font panel css issues
+- fix: the tag ajax filter now displays the tags in the order of the id's the user selects. Before it was alphabetically
+- fix: home breadcrumb does not appear as structured data as required by the google metadata testing tool
+- fix: smartlists that had image captions with HTML where broken. Now we fixed them.
+- fix: category sorting options was not working sometimes.
+
+  
+[ Version 3.2 ]
+- new: added support for design options on most of the blocks. You can now change the padding, margin and border on blocks
+- new: added support for retina images on our blocks and modules. You can enable them in the panel.
+- improvement: various core code refactoring and optimizations.
+- improvement: better theme documentation and better help text in panel
+- improvement: added used on for thumbnails in theme panel
+- improvement: file path and names are now visible on each module, smart list, template etc on hover
+- improvement: breadcrumbs markup, added BreadcrumbList schema
+- fix: our blocks sometimes had issues autoadjuting the column count when placed in a inner row that is in a row
+- fix: on first install the Visual Composer tooltip was appearing over our tooltip and there was no way to close the last remaining open tooltip
+- fix: wrong recomanded columns in Visual Composer, new users found it dificult to find out on what colum layouts our blocks work best
+- fix: background ad on tempalte 8
+- fix: top menu hover and background ad cursor fix bugs
+- fix: images that have alignnone now work as expected
+- fix: main menu was loading without css on first load
+- fix: modal login button css
+
+
+  
+[ Version 3.1 ]
+UPDATE NOTICE: Please note that this version does not work with legacy Visual Composer versions.
+- new: Visual Composer plugin updated to the latest version 4.12
+- new: login, register and forgot password ajax windows, a complete and more modern redesign.
+- new: added support for full height rows, column position and content position on them in Visual Composer.
+- new: added support for parallax speed on rows
+- new: added support for equal height inner rows and content placement  
+- new: setting to hide the author name on modules and on single posts independently. Previously there was only one global setting.
+- new: Added support for custom fonts in theme panel that are uploaded via the wordpress media gallery. The custom fonts can be used just like before on most of the theme's UI without writing any code
+- new: the weather widget now opens an input if it's unable to locate the user via the browser's location API.
+- improvement: we fully rewrote the trending now block, it's now leaner and it works better
+- improvement: block parameters now have a better description
+- improvement: code improvements to the following shortcodes: td_block_big_grid_slide, td_block_homepage_full_1, td_block_ad_box and the video playlists
+- improvement: the media gallery that is used in the theme panel is now less cluttered and without the unused options
+- improvement: we cleaned the theme panel and the code is more organized now
+- improvement: all the blocks now show a notice to admins on the frontend when there are missing settings that are required.
+- improvement: the main theme loader is smoother now and has small design improvements
+- improvement: we changed the way templates detect the Visual Composer plugin. The detection method is based on VC_ROW and it only triggers when VC_ROW is found in the content. This allows one to use shortcodes in the default templates that have sidebar + title.
+- improvement: added font settings for post lists
+- improvement: drop caps font settings issue fix
+- improvement: all the advertising blocks now support an ad title
+- improvement: various google webmaster structured data issues have been fixed
+- improvement: better support for IE8
+- fix: category dropdown list with long category titles now works as expected
+
+  
+[ Version 3.0 ]
+UPDATE NOTICE: Please update tagDiv Social Counter to the latest version that comes with the theme.
+- new: grid system - with this we eliminate all the # in url bugs
+- new: Instagram block and widget
+- new: Footer Instagram
+- new: Weather block and widget
+- new: Weather option in top bar
+- new: Exchange block and widget
+- new: Mobile menu
+- new: Search menu on mobiles
+- new: Background support for mobile search and menu with parallax
+- new: 1 new footer styles
+- new: 5 new category templates
+- new: 3 one click demos
+- new: 10 Social counter styles
+- new: Login/register option for mobiles
+- new: custom post types now support a global sidebar that can be set from the theme panel
+- new: logo in H1 tags
+- new: reset button in theme panel. This will bring the theme to the original state
+- new: panel for one click demos
+- new: enable/disable category pull-down filter option in theme panel
+- new: display order for category tags on post pages option in theme panel
+- new: Social Counter – version 4.1 – please update your plugin to the latest version
+- new: whatsapp share for article on mobile devices
+- new: 4 new smart lists(smart list 5, 6, 7 and 8)
+- new: 3 new ad spots used for smart lists (smart list 6, 7 and 8)
+- new: 1 new ad spot(Footer top)
+- new: 4 new top bar layouts
+- new: we removed the Smooth scroll option from panel
+- new: new look for the main menu sub-menus
+- improvement: the theme settings are now only saved once per pageload and only if needed. We use the shutdown action to save them.
+- improvement: video playlist block now works with multiple playlists of the same type on one page
+- improvement: we audited all the metadata produced by the theme and we improved every aspect of it
+- improvement: updated the google fonts list
+- improvement: better seo on smartlists
+- improvement: the categories that are listed on post pages can now be shown using the WordPress default order. This can be enabled from theme panel.
+- improvement: We optimized the queries for all the blocks and widgets that don't show posts (popular categories, social counter etc...)
+- fix: panel got stuck while saving in specific cases, mostly related to categories
+- fix: contributor users cannot change the post template now, this is more in line with WordPress
+- fix: Security issues
+- fix: Infinite pagination on categories did not work with speed booster
+- fix: removed no comments message with comments disabled
+- fix: infinite loading on categories issue with latest posts when the rest is fewer than the "Blog pages show at most" setting
+- fix: footer logo title attribute
+- fix: tinyMCE issues with the shortcodes menu (multiple options where selected in specific cases)
+
+
+[ Version 2.3.7]
+- fix: social counter facebook issue with new API keys
+- fix: security issue
+
+[ Version 2.3.6]
+- new: Visual Composer updated to latest version 4.11.2
+- new: Revolution Slider updated to latest version 5.2.4.1
+- fix: a jQuery syntax issue that appeared after Wordpress 4.5 update
+  
+[ Version 2.3.5]
+- fix: WordPress 4.4.1 homepage pagination issue
+  
+[ Version 2.3.4]
+- new: visual composer was updated to the latest version 4.9
+- new: revolution slider was updated to the latest version 5.1.5  
+- fix: modified structured data to comply with Google's new requirements  
+  
+[ Version 2.3.3]  
+- fix: pagination was not working on categories with big grid disabled on WordPress 4.4
+  
+  
+[ Version 2.3.2 ]
+- new social counter version. Facebook requiers now an API key, read more here: http://forum.tagdiv.com/tagdiv-social-counter-tutorial/
+
+ 
+[ Version 2.3.1 ]
+- new: added http channel test status in the system status panel. You can now check if the theme is able to get the tweet count, like count etc from your host.
+- improvement: added the new google ads sizes to the panel
+- fix: sorting bug on custom page loops
+- fix: removed unused code from the theme + theme panel. We shipped the weather widget code by mistake. The widget is not ready yet.
+- fix: the documentation url for demos was wrong in wp-admin
+- fix: error that was showing up in logs when the theme panel was saved
+- fix: we updated the ads links to point to the right documentation
+
+[ Version 2.3 ]
+- new: each demo now uses a separate css generator for that modifies the appearance of the theme. The theme now generates just the required css to for each demo.
+- new: You can now show in all the blocks and widgets site wide popular articles in the last days provided by the Jetpack plugin
+- new: Travel demo
+- new: Custom code panel. We realized that all the custom css, html and javascript should be in one panel. We also added a custom HTML code section. All the input areas from this panel have autocomplete (ctrl+space) and error checking.
+- new: the theme now has it's own logging system. We can now debug hosting issues easier.
+- new: a new self diagnosting and self configurating module that allows our theme to pull data from other sites more reliably.
+- fix: paragraphs in comments on posts and in wooCommerce now have appropriate spacing 
+- fix: on post pages if the author box was hidden, the theme was sometimes producing invalid author links
+- fix: possible function name collision of our gallery filter. Thanks to @denimology form our forum for this suggestion.
+- fix: tabs widget from VC, the shortcode was changed in the latest VC version and it lose the theme style
+- fix: non adsense ads can be disabled responsive using the panel options
+- fix: g+ new icon
+- fix: theme animations where incompatible with some plugins and the visual composer gallery. The animations still worked but all of them looked a bit strange.
+- improvement: the backend editor style that is used in TinyMCE no longer compiles on demand. We ship a ready compiled css and this makes the editor load faster
+- improvement: added link to user page on login widget from top menu
+- improvement: social counter button is clickable on the entire area
+- improvement: almost all the javascript code now passes jshint. We still have about 15-20% of the code to refactor to the new standards but with time we will get there.
+- improvement: the theme's data source class can now be overwritten from the child theme
+- improvement: all the widgets from the theme are now optimized to work better. The widget_builder class is now deprecated and all the functionality was moved to td_block_widget
+- improvement: the video playlist now downloads the videos metadata on render, not on save post. This allows us to use the playlist on the on click demos.
+- improvement: the following modules of the theme are loaded on demand now: td_log, td_remote_http, td_remote_video, td_data_source, td_video_support, td_more_article_box, td_page_views, td_review, td_ajax. This means that the theme loads them only when needed. We mesured a 10% faster load time after this tweak.
+
+  
+[ Version 2.2 ]
+blog_post: http://tagdiv.com/newsmag-2-2-update/
+- new: we are using a new less compiler for the css. This prepares our theme for the next stage when we will optimize css delivery based on settings and components used
+- new: this is the first version of our ajax preloader. The preloader loads the ajax subcategories on the initial pageload, this provides a better user experience and in some cases a better performance if the initial page is cache.
+- new: all categories now have an option for infinite loading + load more instead of pagination
+- new: wooCommerce invoicing plugin
+- new: wooCommerce label maker plugin with support for label Dymo label printer
+- fix: on the ad block the sidebar ad spot cannot be selected since the last visual composer update
+- fix: live ajax search box in specific circumstances was linking to categories instead of the actual search results
+- fix: security issue with the ajax code that handles the sidebars.
+- fix: issue with ajax subcategories. If you clicked them fast enough there was a chance that they will desynchronized with the content, showing the wrong content.
+- fix: the smart sidebar animates better now when it's used with the smart affix menu
+- fix: we added the alt tag to placeholder feature images and the thumb disabled images
+- improvement: a big part of the themes JavaScript now passes jsHint and complies to WordPress JavaScript Coding standards
+- improvement: mega menu ajax loading now works smoother and the animation is top to bottom
+- improvement: infinite loader now has a loading animation
+- improvement: we improved the loading animation, when needed it's smaller and it looks better
+- improvement: revolution slider was updated to the latest version
+
+
+[ Version 2.1 ]
+- new: we added 6 new unique grids to the theme
+- new: we added 7 grid styles (each grid can use one of the styles) this allows you to make a lot of combinations and make your site unique
+- new: Custom Posts Types panel - from here you can customize the single for specific custom post types. For example you can choose what taxonomy to use for breadcrumbs, the category spot and the tags spot.
+- new: Custom taxonomy panel - customize the module used for listings, the sidebar position and sidebar for each taxonomy.
+- new: taxonomy.php - all the taxonomy archives are handled by that file
+- new: our new single templates can be easily adapted to custom post types by just copying them to something like single-YourCPT.php
+- new: the WooCommerce single template is now a separate file and it supports site wide sidebar position + sidebar and per product settings
+- new: On Custom Post Types you can set now the sidebar position and sidebar on a per post basis
+- improvement:better child theme support. The blocks, modules, single template, all WordPress templates, some core components and single loops are now easily overwritten via the child theme
+- improvement:HTML is now allow on the author box on the author page
+- improvement: we updated the visual composer plugin to the latest version.
+- improvement: this update brings the start of a new system that will load only the required CSS. In this first step we switched the WooCommerce css to the new system and it's loaded only when it's required. With time as we make sure that the system is stable, we will move all the plugin css externally and more :)
+- improvement: we removed the minimization from key sections of javascript code, this allows easier modifications
+- fix: demo installer error when the uploads folder doesn't have the required permissions
+- fix: missing border top setting for blocks
+- fix: missing colour preset setting from the blocks panel
+- fix: the settings for the loop in the "page builder + loop" template did not worked as expected
+- fix: on the pagebuilder + loop template when you selected a category the pagination was showing a warning
+- fix: view all results when searching was returning a page with the two words marged instead of separated
+- fix: the category page was showing a warning when an ID that does not exist was requested and a 404 was generated. The featured filter on category pages was also affected.
+- fix: all the metadata exposed by the theme was audited and we fixed all the issues found. The new Google Metadata Testing Tool was updated and it reported some missing metadata.
+
+[ Version 2.0 ]
+UPDATE NOTICE: If you use the option to show the logo on sticky menu, please clear the cache. Please update tagDiv social counter and Visual Composer to the latest version.
+- new: we audited the theme and and we made major improvements in speed and memory usage, especially in use cases that have big taxonomies, like a lot of categories or tags.
+- new: the blocks, modules, single template, all WordPress templates, some core components and single loops are now easily overwritten via the child theme method
+- new: welcome panel with theme information and introduction
+- new: plugins panel that provides an easyer way to install bundled plugins
+- new: one click demos that just work. The demos can be inported with or without content
+- new: system status tab - the theme now dettects common hosting and configurations issues
+- new: more options in Theme Panel for the Logo on Sticky menu settings
+- new: more options in Theme Panel for Footer color, now you can change the text color, links hover color and widgets header color
+- new: we finally added the general setting for the modal window. Switch it on and all the images from posts and pages will have a modal window
+- new: tagDiv’s WP Booster API System is the new amazing tool designed to let you customize your theme even more
+- new: custom made background stratching script.
+- new: added excerpt option for mega menu posts
+- new: tooltip in the theme panel. We use it to display additional information for complex settings. The goal is to bring the documentation where the settings is.
+- new: added .screen-reader-text class for better usability
+- new: visual composer updated to the latest version
+- improvement: all the page options metaboxes where restyled and grouped in tabs. Now it's easier than ever to find and modify any option
+- improvement: the helpful tooltip is present for metaboxes too
+- improvement: better trasnaltions for multiple languages. Thanks to all the people who help us translate the theme!
+- improvement: better compatibility with Visual Composer. Better support for full width, parallax and colors on rows
+- improvement: removed the Quotes from shortcodes and added as Formats in Tinymce for live view
+- improvement: removed the Dropcaps from shortcodes and added as Formats in Tinymce for live view
+- improvement: the panel now uses the modern WordPress media upload
+- improvement: the inline ad now works with justified text or other additional classes on the p element
+- improvement: the theme tries to download higher resolution images for vimeo featured videos
+- improvement: better smart lists + yoast analytics compatibility
+- improvement: the new child theme includes the css via enqueue_style instead of @import. This change improves the child theme's css loading time.
+- improvement: added translation for 'of' string
+- improvement: speed booster 4.1 works better now and automatically detects incompatible plugins
+- improvement: tagDivsocial counter updated to the latest version + instagram counter fix
+- fix: the background url was fixed to work better. Please set it again if you encounter problems
+- fix: woocommerce typography space issue
+- fix: twitter embed appearance
+- fix: block quote color in accordance with the block title background color
+- fix: mega menu long post title brake sub-categories alignment
+- fix: IOS slide custom header color not work
+  
+  
+[ Version 1.7.2 ]
+- improvement: visual composer - latest version update
+- fix: grey panel issue on some hosts (the panel was not loading completely)
+
+
+[ Version 1.7.1 ]
+- UPDATE DESCRIPTION: This update brings a better compatibility with WordPress 4.2, Youtube V3 api support and also some hot fixes
+- UPDATE NOTICE: Please update your social counter plugin to V 2.10. The plugin was changed to work with YouTube's API V3
+- fix: WordPress 4.2 compatibility - in some instances the old version of the theme may loose the settings for specific categories due to <a href="https://make.wordpress.org/core/2015/02/16/taxonomy-term-splitting-in-4-2-a-developer-guide/" rel="nofollow">this WordPress bug</a> that was fixed in 4.2 
+- fix: security update - the TGM Plugin Activation class that is recommended by Envato and used by most of the themes here has a security vulnerability that allows cross site script execution. We patched it in this version. <a href="http://themeforest.net/forums/thread/security-vulnerability-affecting-wordpress-plugins-and-themes/173011" rel="nofollow">Read more here</a> and <a href="https://blog.sucuri.net/2015/04/security-advisory-xss-vulnerability-affecting-multiple-wordpress-plugins.html" rel="nofollow">here</a>
+- improvement: visual composer updated to the latest version. It fixes a small issue with WordPress 4.2
+- improvement: option to disable the image lazy loading animation
+- improvement: option to disable the smooth scroll on browsers that do not have smooth scrolling support
+- improvement: the lazy loading animation waits a predefined time until it show all the images. This prevents situations when a missing image prevented all the other images to appear
+- improvement: better pagination system (sometimes it was adding ... between consecutive numbers)
+- improvement: trending now block is now animated and looks more nice
+- improvement: general animation tweaks (subcategories, lazy loading, load more)
+- improvement: the theme and social counter now uses YouTube API V3
+- fix: the featured video now works with https hosts
+- fix: the comment list is now visible even when the comments are closed (the same behavior as the default wordpress themes)
+- fix: https for video format posts
+- fix: video playlist on https sites
+- fix: Load more button now fades out when there are no more posts to display
+- fix: issue with title of post text encoding
+- fix: When using block 14 after block 11 now its showing properly 
+- fix: the background ad url field from our panel was not working properly sometimes
+- fix: vimeo video player shortcode now works as expected
+
+
+  
+[ Version 1.7 ]
+- new: animation stack - all the animations form the theme are now faster
+- new: custom made lazy loading effect on images. We took the time to create the best lazy loading effect from scratch. All the scripts that we use for it are custom made and are design to work as fast as possible with our themes.
+- new: two additional ad spots
+- new: BuddyPress support
+- improvement: (metadata) all the pages from the theme pass the new google metadata validation tool
+- improvement: better custom ads support in panel
+- improvement: better excerpts panel with more information
+- improvement: we moved the 'disable comments on pages' setting to the Page template section
+- improvement: now on category pages the theme only gets child categories for the top level ones. Otherwise it will show the siblings
+- improvement: we refactor the live ajax search box, it now provides a better user experience and it's prepared for major improvements
+- improvement: better scrolling experience on google chrome
+- improvement: updated visual composer plugin to the latest version
+- fix: rss + excerpts issue, if wordpress was set to show rss excerpts, it was showing only 4 words
+- fix: android chrome css issues (the small font icons where not aligned properly)
+
+[ Version 1.6 ]
+- fix: when you have background color on site, the color disappear on post style 6
+- fix: the two strings that where not translated properly
+- fix: arrow list shortcode
+- fix: issue with page template options on sites that did not use the english language
+- fix: featured image placeholders now work as expected again
+- fix: hide and show category label panel setting
+- fix: search icon click on affix was going back to top
+- fix: excerpt not working for trending now
+- fix: excerpt missing for mega menu title
+- fix: links that contained only #_and_something did not work
+- fix: https issue on backend. TinyMCE font was loaded via HTTP
+- fix: astpect ration for vimeo videos
+- fix: missing translation
+- improvement: better top bar settings
+- improvement: social icons moved in their own panel in backend
+- improvement: better footer panel with better text and better organization
+- improvement: better woocommerce 2.3 compatibility
+- improvement: faster category page, the system that pulls the subcategories uses two less queries
+- improvement: removed width of the top bar for better spacing
+- improvement: removed the texture from parallax templates (prevent flickering)
+- new: footer template system
+- new: category template system + category top post style template. Currently we do not deliver any new templates but this system paves the way for easy user customizations via plugins and it also allows us to add new styles.
+- new: when subcategories don't fit in the category page, the theme will make a drop down with the excess categories
+- new: RGBA color picker in panel. You can now use colors with alpha blending (transparency) on all the elements of the theme that support colors
+  
+[ Version 1.5 ]
+- UPDATE DESCRIPTION: This update brings another round of performance improvements, all the renamed shortcodes are now loaded on demand a lot of small and medium fixes and the new translation panel.
+- UPDATE NOTICE: Please update the social counter. The following shortcodes and widgets have been renamed: 
+* td_ad_box -> td_block_ad_box
+* td_authors -> td_block_authors
+* td_homepage_full_1 -> td_block_homepage_full_1
+* td_popular_categories -> td_block_popular_categories
+* td_video_vimeo -> td_block_video_vimeo
+* td_video_youtube -> td_block_video_youtube
+* td_text_with_title -> td_block_text_with_title
+* td_slide -> td_block_slide
+* td_social_counter -> td_block_social_counter
+* <a href="http://forum.tagdiv.com/update-newsmag-to-1-5/" rel="nofollow">Rename the short codes via SQL</a>
+* Please note that the renamed widgets have to be re added to each sidebar after this update. Make sure that you backup your database and if possible get the widget list from your sidebars.
+- new: theme translation panel that allows the community to send and receive translations and corrections
+- new: the theme comes already translated in 17 languages (via theme panel, .po .mo are also provided in the /translation folder)
+- fix: author meta data was a bit broken in google meta data testing tool
+- fix: author meta data is present even when SHOW AUTHOR BOX is set to disabled in theme panel
+- fix: missing excerpt length in the panel for related posts
+- fix: top menu css fix (second level menu in the top bar is now hidden)
+- fix: missing bullets list
+- fix: tagDiv modal window is now translated as well (1 of 2 etc)
+- fix: bug with external urls that contain #hash not working
+- fix: Pagebuilder + page title template - when a sidebar position was selected on page, all the widgets from the sidebar stopped working
+- fix: Pagebuilder + page title template - pagebuilder elements got confused about the number of columns with or without sidebar
+- fix: video playlist title encoding issue with double "
+- fix: footer text backslashes on single quoate characters
+- fix: slider view counter now obeys the panel vide counter setting
+- fix: speed booster 3.2 now works as expected with bbPress (the bbpress css is no longer moved after the theme css)
+- fix: gradient hover transition from Big Grid Firefox fix 
+- fix: we have regenerated the font icons
+- fix: woocommerce product list css bug on responsive iPad portrait
+- improvement: speed booster 3.2 - google fonts are no longer moved to the footer of the page. Faster apparent loading time
+- improvement: visual composer plugin updated to the latest version
+- improvement: the panel loads and saves faster. The total size of the panel was reduced by ~ 40%, we load the rest via ajax
+- improvement: most of the controls from the panel are now animated via css
+- improvement: you can now customize the number of related articles (3, 6, 9, 12) or if the sidebar is used (5, 10, 15, 20)
+- improvement: added related posts title excerpt in theme panel. You can now cut the title on related posts if needed
+- improvement: 9 more shortcodes are loaded on demand, meaning that if the shortcode is not used, the theme doesn't even opens the file.
+- improvement: now you can Login/Register from bbPress to post a new topic or post a reply via our modal login window
+- improvement: On posts with pagination, template 4 and 5 now show the featured image on all the pages of the post
+
+
+[ Version 1.4 ] 
+- new: internal api
+- new: bbPress support
+- improvement: this version of the theme requires the new tagdiv social counter plugin. You can find it in the /plugins folder
+- improvement: dynamic loading of blocks and modules ( ~15% lower ram usage )
+- improvement: video play list is more compatible with different hosts/servers. If your video play list was not downloading the video details, please update the theme.
+- improvement: support for overwriting of blocks via child theme and via plugins
+- improvement: support for new blocks, headers, modules, smart lists, thumbnail sizes via our plugin api
+- improvement: admin panel help text (Template settings panel)
+- improvement: when the user disables the post view, the theme will stop keeping track of them in the background -> faster loading time
+- improvement: added option to have a border on the text with title widget + page builder block
+- improvement: now you can login to post a comment directly from the comment section
+- improvement: added in Theme Panel -> Translations: SHARE
+- fix: the [tagDiv] Text with title widget and shortcode. It now works properly with HTML content but please rebuilt the widget and hit save again to see the changes.
+- fix: print css background issue
+- fix: video title encoding issue on the tagdiv play list (sometimes the title of the video was rendered with strange characters)
+- fix: issue with "&" encoding as strange characters in block titles
+- fix: pagination issue on categories that don't have child categories and when the category big grid is disabled
+- fix: rich snippets reviews
+- fix: missing image for two placeholders
+
+[ V 1.3.1 ]  
+- updated visual composer to V 4.3.5 (this version of the plugin is compatible with WordPress 4.1)
+  
+[ V 1.3 ]
+- improvement: added translation for EVEN MORE NEWS widget from footer
+- improvement: added in Theme Panel -> Custom Typography: Footer text under logo
+- improvement: added in Theme Panel -> Post settings: Show/Hide categories tags on single post page
+- improvement: added in Theme Panel -> Custom Typography: Subtitle for post
+- fix: slider height when the screen size is smaller then 320px
+- fix: removed image captions that appears in post excerpt
+- fix: reviews stars number display
+- fix: added break-word for comments text
+- fix: php notice when source or via have no url
+- fix: sharing show/hide issue
+- fix: twitter share strange characters in title
+- fix: facebook like button show on https
+- fix: load default style stack was not working
+- fix: module 14 css bug
+- fix: added module MX 4 to the excerpt panel
+  
+  
+[ V 1.2 ]
+- NEW: woocommerce support
+- NEW: added buttons shortcodes in post editor
+- improvement: added arrow list style format in post editor
+- fix: fixed Child theme
+
+
+  
+
+[ V 1.1 ]
+- NEW: 17 Predefined Page Templates in Visual Composer Builder.
+- NEW: article print css
+- NEW: text with title block is now also available as a widget
+- NEW: .po/.mo translation support
+- improvement: added slider auto play feature
+- improvement: wp_booster v3.0 - stability improvements, better compatibility with other plugins
+- improvement: new style format for the text editor
+- improvement: new elements that can be customized from theme panel -> custom typography
+- improvement: responsive go to top arrow (it doesn't cover the footer text on tablets)  (thanks Chris)
+- improvement: titles with big fonts now have a better readability (added letter-spacing) (thanks Chris)
+- improvement: Ad box shortcode support title  (thanks Chris)
+- fix: smart sidebar issue on chrome - it was flickering sometimes
+- fix: smart sidebar was not positioned properly when ajax content was loaded in the main area of the theme
+- fix: missing font when roboto is used as font in the theme panel ( thanks ZTWP / newspaper theme )
+- fix: speed booster 3.1 - font loading and speed booster font optimizations. The speed booster uses collections to load fonts now
+- fix: homepage full post featured - bug when you were unable to press scroll down arrow.
+- fix: homepage full post featured - bug when you were unable to select the dropdown under the featured image.
+- fix: extra pixels from bottom body on mobile versions.
+- fix: bug images strange position in smart list 2 on safari.
+- fix: removed extra closing tag from comments pages.
+- fix: video icon on slider to stay centred on resize.
+- fix: IOS slider style and functionality
+- fix: smart list 3 css fix
+- fix: block 14 in footer css bug
+- fix: grid 2 columns css bug
+- fix: comments pagination bug
+- fix: footer search css bug in IE11
+- fix: rich snippets reviews
+- fix: click on home link and on logo adds a trailing backslash as expected, preventing one redirect
+- fix: disqus comments css
+- fix: social sharing from Jetpack css
+
+
+  
+[ V 1.0 ]
+- initial release

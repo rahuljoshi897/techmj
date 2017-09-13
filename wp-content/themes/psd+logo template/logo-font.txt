@@ -1,0 +1,6 @@
+our logo uses:
+
+font: Roboto Condensed 
+font-weight: Bold 
+size: 46px
+http://www.google.com/fonts/specimen/Roboto+Condensed
