@@ -1,0 +1,1501 @@
+----------------------------------------------------------------
+-- Version 1.8.5 - 10 Jul 2017 - WP v4.8 Compatibility & Major SEO Fixes
+----------------------------------------------------------------
+- Important Note: We have an new SEO expert in our team and we did a lot of SEO fixes and improvement in this version also from next version we will do more.
+
+- Added: Website added to structured data to show your site name in google result.
+- Added: WooCommerce v3 gallery support added to Publisher.
+
+- Added: AMP "Above The Fold" plugin compatibility added.
+- Added: AMP new option to exclude URL (and URL pattern) from AMP URL converter. You can use it to exclude subdirectories.
+
+- Improved: Breadcrumbs Structured data fixed. Google Shows breadcrumb in search result perfectly!
+- Improved: Structured Data improved to be 100% valid in Google Roles.
+- Improved: AMP pages SEO improved.
+- Improved: AMP validator improved. It's even smarter!
+
+- Fixed: TinyMCE Editor style for WP v4.8 fixed.
+- Fixed: TinyMCE shortcodes fixed for WP v4.8 update.
+- Fixed: Minor RTL style issue in tablets. Thanks @Sahafi
+- Fixed: Comments navigation not showing.
+- Fixed: Both post type change not works for search.
+- Fixed: Override menu not works for "Shop" and other WooCommerce main pages. Thanks @gugacwb
+- Fixed: Social share FB app info notice will be removed after filing needed data.
+- Fixed: Duplicate plugin and theme update notice issue.
+- Fixed: Failed to load stylesheet in editor fixed. Thanks @Karl
+- Fixed: a lot of code fixes.
+- Fixed: DFP ads wrong alignment fixed.
+- Fixed: Ads Admin Labels changed to bypass adblockers!
+- Fixed: DFP ads wrong dimension fixed.
+- Fixed: AMP ads rtl style fixed.
+- Fixed: AMP minor warning fixed.
+
+
+----------------------------------------------------------------
+-- Version 1.8.4 - 17 May 2017
+----------------------------------------------------------------
+- Added: Options to show/hide "Subtitle" in all listings + multiple position to show ;)
+- Added: Publisher theme and plugins update notice added to admin pages.
+- Added: Advanced option to define paragraph tags for inline related ads.
+- Added: Title field added to playlist widgets.
+- Added: Builtin smart functionality added to warn you warn about outdated files that are overrided in child theme.
+- Added: Facebook App config added for social share counter to fix FB API limit rating.
+- Added: Center align added to Inline Related Posts.
+
+- Improved: Ads and related posts injector rewrited for better detecting content parts.
+- Improved: Ads smart admin label improved.
+- Improved: Admin style improved.
+- Improved: Typography settings usability improved.
+- Improved: Compatibility with "Fast Carousel" plugin added.
+- Improved: Gallery slider file cam be overrided in child theme.
+- Improved: WooCommerce v3 compatibility improved.
+- Improved: Admin smart notice to warn compatibility steps of "WP Fastest Cache" plugin.
+
+- Fixed: AdBlockers are detecting BetterAds.
+- Fixed: Ads are not showing in ajax related posts.
+- Fixed: Facebook and Google+ widgets width issue fixed.
+- Fixed: 404 page not showing properly. Thanks @ayurtimes
+- Fixed: Header padding option not works.
+- Fixed: Wrong name for listing in page listings fixed.
+- Fixed: "Custom Permalinks" support added to BetterAMP.
+- Fixed: "link" tags will be removed from BetterAMP pages body section.
+- Fixed: Structured data validation issue with custom image logo (BetterAMP).
+- Fixed: "Convert Plug" plugin validation issue fixed.
+- Fixed: Modern Grid 7 date format not woks.
+
+
+----------------------------------------------------------------
+-- Version 1.8.3 - 3 May 2017
+----------------------------------------------------------------
+- Fixed: Issues in printing ads.
+- Fixed: minor issue about using shortcode in BetterAds banners.
+- Fixed: Lightbox not works for images with query string.
+- Fixed: Custom Sidebars new update style fix added.
+- Fixed: Buttons style issue.
+
+
+----------------------------------------------------------------
+-- Version 1.8.2 - 1 May 2017
+----------------------------------------------------------------
+- Added: Option to disable ads in Posts, pages, cats, tags and all other post types and taxonomies.
+- Added: Override options for cats, tags, posts, pages and all other post types and taxonomies.
+- Added: Option to change post views to fake number ;)
+- Added: Option to replace 404 Page with custom page.
+- Added: Option to change share url type (pretty permalink or shortlink)
+- Added: New filter for counting post views added (Guests + Subscriber Users)
+- Added: BetterAMP support added to Better Post Views
+- Added: Custom CSS class & ID added to social counter VC add-ons.
+- Added: Responsive field options added to social counter VC add-ons.
+
+- Improved: Fixed: 404 Page responsive style. Thanks @maxhitech
+- Improved: Minor performance improvements.
+- Improved: Chat post type style improved.
+- Improved: Improved to not count empty paragraph for Inline ads and posts.
+- Improved: Inline Ads and related posts content injector rewrited again for better HTML detecting (even wrong HTML codes)
+
+- Fixed: Google DFP ads appear and disappear in sticky sidebars. Thanks @djtt
+- Fixed: Videos not showing properly in 16:9 aspect ratio. Thanks @sistemaplus
+- Fixed: Author options only will not shown for subscriber users.
+- Fixed: Incorrect share number for post shares count.
+- Fixed: Share counts not showing properly.
+- Fixed: Inline related posts are showing in Feed.
+- Fixed: Inline related posts conflict with Infinity related posts. Thanks @Cuneydinho
+- Fixed: Pullqoute shortcode style issue. Thanks @frankmf
+- Fixed: Ads are showing in RSS. Thanks @Issa
+- Fixed: Facebook comments Automattic AMP compatibility added.
+- Fixed: Facebook multiple comments compatibility improved.
+- Fixed: Facebook comments not works in ajax related posts. Thanks @Antonio
+- Fixed: Disqus multiple comments compatibility.
+- Fixed: Disqus comments breaks AMP pages.
+- Fixed: AMP post inline ads not working properly.
+- Fixed: AMP PHP Warning. Thanks @isrgrajan
+- Fixed: A lot of code fixes.
+- Fixed: Comments word break removed. Thanks @jsingh
+- Fixed: Lazy loading for embed shortcode.
+- Fixed: Widgets color options not working some times! Thanks @ frankmf
+- Fixed: 'Upload Custom Font' button in font manager not showing!
+
+- Devs: "better-ads/universal-ad-sizes" filter added to change BetterAds universal ad size list. Thanks @interk
+
+
+----------------------------------------------------------------
+-- Version 1.8.1 - 25 Apr 2017
+----------------------------------------------------------------
+- Added: External banner image link input added.
+- Added: BetterAMP: "WordPress Fastest Cache" premium plugin compatibility added.
+- Added: WooCommerce v3 compatibility added.
+- Added: Menu text color option added to each menu item.
+
+- Improved: Ads smart label texts changed to be translatable.
+- Improved: is_better_amp() works before template_redirect action.
+- Improved: Buttons style improved. Thanks @djtt
+- Improved: "Menu Highlight Color" to support horizontal mega menus.
+
+- Fixed: Inline related posts will not shown if there is no posts. Thanks @Sahafi
+- Fixed: More Stories will not shown if there is no posts. Thanks @Sahafi
+- Fixed: Blank page in banner creating page.
+- Fixed: Ads smart label RTL style fixed.
+- Fixed: Related posts override not works for post metabox.
+- Fixed: Breadcrumb not shows categories when page supports category! Thanks @razzackbakh
+- Fixed: JS error shows in Insatgram, Flickr and Dribbble slider styles. Thanks @REF1972
+- Fixed: PHP warning. Thanks @Sahafi
+- Fixed: Modern grid showing loading when there is no featured image.
+
+
+----------------------------------------------------------------
+-- Version 1.8.0 - 20 Apr 2017
+----------------------------------------------------------------
+- Added: Smart Lazy Loading added.
+         Will loads images when needed also will loads smallest size of image for block
+         that used.
+         Smart Lazy Loading = Smaller page size = quick page load
+
+- Added: Multiple comment platforms support: WordPress + Facebook + Disqus in same time.
+         You can sort and activate platforms you need.
+
+- Added: Post view ranking option added.
+         You can create unlimited post view rankings with custom icon, color and rate
+         for each rank.
+
+- Added: Post share ranking option added.
+         You can create unlimited post share rankings with custom icon, color and rate
+         for each rank.
+
+- Added: Off-Canvas Menu/panel added.
+         Options to show logo and branding, menu, search, copyright text and social counter icons in panel
+         with 2 location in left and right.
+
+- Added: "More Stories" panel added to posts with 7 listing and detailed options.
+         Visitors can see related posts for current post after X pixel scroll in
+         left or right.
+         Custom Keyword algorithm added to more stories = Posts with custom keyword = search.
+
+- Added: "Inline Related Posts" added.
+         Multiple inline related posts
+         Middle of content or after X paragraph inline related posts
+         14 listing style for inline related posts
+         Options to override/disable inline related posts in each post.
+         Option to search and show posts with custom keyword in post content!
+
+- Added: Custom Keyword search added to related posts. (search in posts for related posts)
+
+- Added: Ads Override section added.
+         You can override ads for all post types (default and custom CPT) and category, tag
+         and all custom taxonomies from panel.
+         BetterAds = Ads manager from future!
+
+- Added: Google DFP ads support added.
+- Added: Google DFP ads in AMP support added.
+- Added: Smart labels to ads manager. Shows ad location state.
+         Ads Manager is very easy to use now!
+
+- Added: 5 new ad location added.
+- Added: Ad Location: Middle of post content ad location.
+- Added: Ad Location: AMP middle of post content ad location.
+- Added: Ad Location: Top of post. Useful to show ads after header and before post only in post page.
+- Added: Ad Location: Left and right side of logo in header 1, 4 & 7.
+- Added: Ad Location: Between featured image and post title.
+
+- Added: 5 new social counter style added.
+
+- Added: "Telegram" to social counter.
+- Added: "Line" to social counter.
+- Added: "Viber" to social counter.
+- Added: "AppStore" to social counter.
+- Added: "Google Play" to social counter.
+- Added: "BlackBerry BBM" to social counter.
+
+- Added: Option to override block listing options for each shortcode and widget.
+         You can customize block settings for specific block or widget.
+         High level of customization.
+
+- Added: "X hour ago" time format option for all listing blocks.
+- Added: Option to show/hide post views in all listing blocks.
+- Added: Option to show/hide post shares in all listing blocks.
+- Added: Option to change category badge to Tag or other taxonomies
+         added to all block listings.
+- Added: Option to change category badge to Tag or other taxonomies
+         added to post top badges.
+- Added: Custom CSS Class & ID option added to all listings and widgets.
+- Added: Author filter field added to all widgets and block listings.
+- Added: Option to show/hide sticky posts in all widgets and block listings.
+- Added: Option to show only posts with featured image in widgets and block listings.
+- Added: Block options for Slider1, 2 and 3 added.
+- Added: Show/Hide "Read more" button added to all mix listings.
+- Added: Show/Hide Excerpt added to all Mix Listings.
+
+- Added: Search result page redesigned.
+         Search form + related categories + related tags added to search result page.
+
+- Added: "Continue Reading" button added to mobile devices.
+         Small section of posts content will be shown in mobile devices to
+         create space for post ad to be shown.
+         Makes more space for your ads to bw shown in mobile devices.
+
+- Added: New "Structured Data" feature added to introduce website completely
+         to search engines in the best way (JSON-LD).
+- Added: New SEO options added.
+- Added: Advanced option to enable/disable social meta tags.
+- Added: Advanced option to enable/disable JSON-LD.
+- Added: Complete "Review" support added to "Structured Data".
+- Added: Complete "Video" and "Audio" support added to "Structured Data".
+- Added: Complete "Product" support added to "Structured Data".
+- Added: Complete "Comments" support added to "Structured Data".
+- Added: Complete "Breadcrumbs" support added to "Structured Data".
+
+- Added: 10 new text listing added for category archive pages.
+- Added: Thumbnail caption will shown in post.
+- Added: Posts featured image will be shown in admin page before title.
+- Added: Option to filter topbar Newstiker for specific categories.
+- Added: Option to change 7 sub cat limitation in header of category archive page.
+- Added: Reset button for panel advanced tab added.
+- Added: Option to change loaded posts count for "Infinity Ajax Related Posts"
+- Added: Option to change featured image click action (lightbox, new tab, not clickable)
+
+
+ - Added: AMP Static homepage support added.
+          You can chose a page to be shown for AMP homepage.
+
+- Added: Menu highlight color option added to menu fields.
+- Added: Option to show/hide post excerpt in single pages.
+- Added: 2 excerpt location for post excerpt in single.
+- Added: Typography option for post excerpt in single.
+- Added: Option to post settings for hiding post featured image.
+         works in all post templates.
+- Added: Shortcode support added to footer descriptions(copyright).
+- Added: Option to show only subcategories in category archive section (not sibling cats).
+
+- Added: Option to change widgets title text color (in each widgets fields)
+- Added: Color option added to Text listings typography fields.
+- Added: Live menu (mega menu) helper added.
+- Added: Option to change BG color (and hover color) of read more button.
+
+- Added: AMP "Structured Data" support added.
+- Added: AMP complete YoastSEO compatibility added. No need to "Glue for Yoast SEO & AMP".
+
+- Added: Full TypeKit fonts support added. 2450+ new font can be used in panel!!
+- Added: "Better Studio Font Icon" added Icon Selector field and modal.
+- Added: Next/Prev rel added to paginated comments links.
+- Added: Option to change pagination position for paginated posts.
+- Added: Top slider support added to none-static homepages.
+         (21 slider style + Revolution slider support)
+- Added: Offset field added to Related posts, Inline related posts and More storey.
+         (use it to show unique posts in all sections)
+- Added: Custom query option added to homepage slider. Thanks @promicabana
+- Added: BetterAMP - "Ultimate Tweaker" plugin compatibility added. Thanks @Antonio
+
+- Added: BetterAds inline add injector rewrited from scratch for better paragraph detection.
+		 It will detects tables, uls and all other big part of contents.
+
+- Improved: Post share buttons responsive style improved.
+- Improved: Responsive style improved.
+- Improved: Breadcrumb responsive style fixed and improved.
+- Improved: Mega menus will work only in first level of menu.
+- Improved: Panel "Blocks and listings" usability improved.
+- Improved: "Listing" fields changed to modal for easy to use and searchable.
+- Improved: "Layout" fields changed to modal for easy to use and searchable.
+- Improved: "Post Template" fields changed to modal for easy to use and searchable.
+- Improved: "Category Slider" fields changed to modal for easy to use and searchable.
+- Improved: Topbar options usability improved (smarter fields).
+- Improved: Menu fields improved to be more easy to use.
+- Improved: Huge bunch of admin panels usability improvements
+- Improved: Posts subtitle changed to H2 tag.
+- Improved: Block tabs performance improved.
+- Improved: BS Booster improved.
+- Improved: Related posts metabox moved to tab for simpler customization.
+- Improved: Gallery will shows not cropped image in thumbnail section when
+            full image size was selected.
+- Improved: Menu bg color will change tabbed mega menu bg color to 20% darker color of selected color.
+- Improved: Favicon will be shown in admin pages.
+- Improved: Pages title tag changed to H1. Thanks @iyke20024
+- Improved: Menu fields usability improved.
+- Improved: Line, Viber, BackBerry share logo changed to high quality version.
+- Improved: Ads metabox improved to be more easy to use.
+- Improved: BetterAds codes improved. 30% of codes rewrite from scratch to make it easy
+            for coming updates = Quicker updates.
+- Improved: Aligned post ads will be center in small screens.
+- Improved: BetterAMP: [video] shortcode compatibility improved.
+- Improved: BetterAMP: Facebook and Vimeo embeds compatibility improved.
+- Improved: BetterAMP: Android title bar color will be same as BetterAMP
+            theme color. Thanks @Antonio
+- Improved: BetterAMP: BetterAds min supported version changed to 1.9
+- Improved: Disqus comments file can be overrided in child theme.
+- Improved: Comments counts count will be aggregated with FB + WP comments
+            in multiple comments.
+- Improved: Facebook comments template file can be override in child theme.
+- Improved: Usability of Social counter for Visual Composer.
+- Improved: Social Counter links changed to HTTPS
+- Improved: Popup modal filters changed to radio button = easy to filter.
+- Improved: Minified version of PrettyPhoto added.
+- Improved: Breadcrumb improved to show custom post types archive.
+- Improved: Thumbnail custom alt will be printed in homepage.
+- Improved: User avatar changed to show smallest image size.
+
+
+- Fixed: BetterAMP will keep elements inline styles.
+         It will creates custom class and adds style code into
+         page style section automatically.
+
+- Fixed: All validation warnings and errors of "Structured Data" fixed.
+- Fixed: Minor issue in videos aspect ratio.
+- Fixed: VC Buttons style issue.
+- Fixed: Ajax related posts not changes URL in special HTTPS sites. Thanks @gemzid
+- Fixed: Search form minor fixes.
+- Fixed: Revolution Slider conflict fixed.
+- Fixed: Search page custom posts count was not works.
+- Fixed: Post template 11 not works with default featured image!
+- Fixed: "APS Arena Products" plugin compatibility.
+- Fixed: Modern Grid 3 (auto) margin bottom space issue in Clean Tech.
+- Fixed: Modern Grid 3 (auto) margin bottom space issue in Clean Design.
+- Fixed: Custom Sidebars plugin RTL fixed.
+- Fixed: "Google Adsense" problem in "WP Speed of Light" plugin fixed.
+- Fixed: BetterAds RTL style fixed.
+- Fixed: WooCommerce lightbox not works in mobile.
+- Fixed: BetterAds will not remove last post inline ad.
+- Fixed: Ajax related posts share link.
+- Fixed: bbPress user pages are not showing in breadcrumb!
+- Fixed: "The plugin does not have a valid header" error in plugin installer.
+- Fixed: Endless loading in some pages when breadcrumb is active.
+- Fixed: Some social share images are not showing.
+- Fixed: BetterAMP: Incorrect homepage title when YoastSEO is active.
+- Fixed: BetterAMP: Style sanitizer improved to make 100% Google validated codes.
+- Fixed: BetterAMP: "WP Speed of Light" plugin compatibility.
+- Fixed: BetterAMP: PHP old versions fatal error.
+- Fixed: BetterAMP: AMP-IFRAME sanitizer improved to force protocol attribute.
+- Fixed: BetterAMP: Social share links protocol changed to HTTPS
+- Fixed: BetterAMP: Sanitizer value_url fixed to not print empty src!
+- Fixed: BetterAMP: Facebook Comments Plugin compatibility.
+         Extra codes (js and markups) will be removed.
+- Fixed: BetterAMP: WooCommerce templates are overriding out of AMP! Thanks @ptsadmin
+- Fixed: Extra "Facebook Comments" JS file removed.
+- Fixed: FB comments codes was shown in AMP
+- Fixed: Post Views W3 Total Cache minifier issue fixed.
+- Fixed: Publisher listings Heading and BG color not works.
+- Fixed: Sticky posts removed from related posts.
+- Fixed: Modern Grid listings settings will broken in ajax pagination.
+- Fixed: Readable times wasn't sync with GMT settings.
+- Fixed: extra "#prettyPhoto/0/" in URL when lightbox is open. Thanks @Karl
+
+
+==== v1.8.0 RC 2 Change Log
+- Fixed: Better Ads Manager PHP warnings.
+- Fixed: All styles widget background css codes fixed.
+- Fixed: Inline related posts style fixed when is full width and
+         after floated item. Thanks @Antonio
+- Fixed: Widgets style fixed when have BG color. Thanks @Antonio
+- Fixed: Disqus comments count style in multiple comment system. Thanks @Aboli
+- Fixed: Post template 7 style fixed. Thanks @Karl
+- Fixed: Login modal bottom style issue fixed. Thanks @Karl
+- Fixed: Post views and share first level changed to be active by default. Thanks @Karl
+- Fixed: All post templates style fixed for not featured image option. Thanks @Antonio
+- Fixed: Footer Instagram hover animation. Thanks @Antonio
+- Fixed: Menu badges style in Off-canvas panel.
+- Fixed: Can't use function return value in write context PHP error.
+- Fixed: CSS was generated for widget when background color is empty. Thanks @Antonio
+- Fixed: Images not showing in AMP. Thanks @Karl @Issa @Antonio @Islim
+- Improved: Images and iFrame Lazy loading improved.
+- Improved: Alt added to off-canvas logo image
+
+
+==== v1.8.0 RC 3 Change Log
+- Added: Top slider support added to none-static homepages.
+         (21 slider style + Revolution slider support)
+- Added: Offset field added to Related posts, Inline related posts and More story.
+         (use it to show unique posts in all sections)
+- Changed: Views are hidden for listings by default.
+- Improved: Sticky posts style in blog listing improved.
+- Fixed: 3 Column layout not works. Thanks @Issa
+- Fixed: A lot of php warnings.
+- Fixed: Settings override issue on author page. Thanks @Karl
+- Fixed: Third Party plugins minifier compatibility improved (minify without error!)
+- Fixed: PHP error about menu when WPML is active.
+- Fixed: Plugins can not work standalone because of BS Booster fixed.
+
+
+==== v1.8.0 RC 4 Change Log
+- Fixed: Share ranking not works inside post. Thanks @Karl
+- Fixed: Off-canvas TinyMCE editor not works properly.
+
+
+==== v1.8.0 RC 5 Change Log
+- Added: Custom query option added to homepage slider. Thanks @promicabana
+- Improved: Inline related posts style fixed.
+- Fixed: Inline related posts is shown in third party AMP plugins. Thanks @promicabana
+- Fixed: Icon and color of share in listings. Thanks @Karl
+- Fixed: Shares are not showing in listings. Thanks @Karl
+- Fixed: Width changer not works properly. Thanks @Issa @Antonio @sistemaplus
+
+
+==== v1.8.0 RC 6 Change Log
+- Added: BetterAMP - "Ultimate Tweaker" plugin compatibility added. Thanks @Antonio
+- Fixed: Featured image is showing in posts when it was disabled.
+- Fixed: URL not changing in Ajax related posts" because of new ajax posts count option.
+
+
+==== v1.8.0 RC 7 Change Log
+- Fixed: Visual Composer blocks issue in RC6
+- Fixed: 3 Column layouts in mobile (768<DEVICE<1000)
+- Fixed: Inline related posts heading tag changed to H5. Thanks @Issa
+- Fixed: Facebook comments not works in ajax related posts. Thanks @Antonio
+- Fixed: Disqus comment count should not work in multiple comments. Thanks @Issa
+- Fixed: Multiple comments not works in Infinity related posts (sometimes!). Thanks @Issa
+- Fixed: User avatar not shown sometimes.
+
+
+==== v1.8.0 RC 8 Change Log
+- Fixed: Incorrect tag for text listing 3 & 4
+
+
+----------------------------------------------------------------
+-- Version 1.7.7 - 1 Mar 2017
+----------------------------------------------------------------
+- Added: Builtin "Google Tag Manager" support added.
+- Added: Video/Audio Featured support added to AMP.
+- Added: AMP Youtube, Twitter, Facebook, Vimeo, Soundcloud, Vine and Instagram support added.
+
+- Improved: style of Review box improved.
+
+- Fixed: WP-Rocket JS Minify error fixed.
+- Fixed: Post updated time wasn't translated. Thanks @Cuneydinho
+- Fixed: Simple Next/Prev pagination on static paginated homepage not works.
+- Fixed: Extra space in adding [better-reviews] in Visual Composer components removed.
+- Fixed: Ads widget title is not showing in special case
+- Fixed: Some W3 Validator bugs.
+- Fixed: Panel date type field not works properly.
+- Fixed: Lightbox  Translation buttons translation fixed.
+- Fixed: Some social share images are not showing.
+- Fixed: BetterGallery "of" translation fixed.
+- Fixed: AMP Thumbnail of static pages fixed to be responsive.
+
+
+----------------------------------------------------------------
+-- Version 1.7.6 - 27 Feb 2017
+----------------------------------------------------------------
+- Added: Image size field added to Better Gallery.
+- Added: Pagination on paginated static homepage will work.
+- Added: 'Better WordPress Minify' plugin Compatibility.
+
+- Improved: Clean sport style improved.
+- Improved: Twitter,FB,G+,Tumblr and Instagram post embeds style improved.
+- Improved: 404 previous page button will shown only when user have previous page!
+- Improved: Post featured image size can be changed from main single.php in all post templates.
+
+- Fixed: AMP Search page style issue fixed.
+- Fixed: Icon selector not working.
+- Fixed: Lighbox not working fixed.
+- Fixed: Flexslider not found error fixed.
+- Fixed: Ads widget and shortcode title is not showing.
+- Fixed: BS Booster script tag issue fixed.
+- Fixed: Social share widgets images not showing in admin.
+- Fixed: bbPress user profile page style fixed. Thanks @dwheeler1
+- Fixed: sub-categories are showing in tabbed mega menu fixed.
+- Fixed: Ajax search type filed not working.
+- Fixed: Whatsapp link not works
+
+- Updated: .pot file updated.
+
+
+----------------------------------------------------------------
+-- Version 1.7.5 - 21 Feb 2017
+----------------------------------------------------------------
+** Please make sure you updated all plugins and cleared your site and browser cache. **
+
+- Added: BS Booster: Minify and combine CSS/JS file of Publisher and plugins you used.
+		 - 40% smaller CSS file.
+		 - 35% smaller JS file.
+		 - Only 1 request for CSS & JS
+		 - Header generated CSS code moved to file.
+		 - Fixes minify JS errors in cache plugins.
+
+- Added: AMP Option to show/hide share in pages.
+- Added: AMP Smart style printing. 200% smaller CSS file
+- Added: Custom CSS code field for admin pages added.
+- Added: Option to select "Created", "Updated" or "Both" for post date.
+- Added: HTML code support added to subtitle field.
+- Added: Gulp.js file added to Publisher and all plugins.
+- Added: Reviews support added to BetterAMP.
+
+
+- Improved: huge bunch of performance improvements.
+- Improved: AMP content validator layer improved.
+- Improved: AMP Design.
+- Improved: Google custom search page design fixed in all demos.
+- Improved: Breadcrumb disabled by default for "CleanBlog" & "ClassicBlog"
+- Improved: Reviews responsive style improved.
+- Improved: Subtitle field size is changeable by drag in admin.
+
+- Fixed: AMP Blockquote style.
+- Fixed: AMP Home slider RTL style fixed.
+- Fixed: AMP Whatsapp link not works.
+- Fixed: AMP third-party plugins compatibility.
+- Fixed: AMP Only 1 gallery is showing.
+- Fixed: Not secure will shown only when login form is showing.
+- Fixed: Comments scrolling to bottom in Facebook comments.
+- Fixed: Mix 5 rtl style fixed.
+- Fixed: Header 6 logo vertically align fixed.
+- Fixed: Error in breadcrumb when term not exists or have problem.
+
+
+----------------------------------------------------------------
+-- Version 1.7.4 - 15 Feb 2017
+----------------------------------------------------------------
+- Added: "Last updated" time added to posts page.
+- Added: RSS added to social counter.
+- Added: Advanced option to show/hide editor columns helper from Publisher panel.
+
+- Improved: Ad "After header" and "Before footer" wrapped with box container.
+- Improved: AMP RTL style checked and fixed for all pages.
+- Improved: Breadcrumb moved to be before "after header" ad location [All publisher/views/ files changed]
+- Improved: Options panel advanced tab usability improved.
+- Improved: "Templates" tab renamed to "General" in theme panel for better understanding.
+
+- Fixed: Breadcrumb RTL style fixed.
+- Fixed: AMP Large listing image style.
+- Fixed: AMP Subtitle wrong tag close.
+- Fixed: AMP Google Analytics not works.
+- Fixed: AMP Missing close tag for
+- Fixed: Breadcrumb not showing in 404 page.
+
+
+----------------------------------------------------------------
+-- Version 1.7.3.2 - 14 Feb 2017 - Minor Fix
+----------------------------------------------------------------
+- Fixed: AdSense ads not working fixed.
+- Fixed: Breadcrumb error in attachment pages.
+- Fixed: "Comments" translation field fixed for Facebook and Disqus comments.
+- Fixed: Subtitle not shown fixed.
+- Fixed: AMP customizer page not loading.
+- Fixed: "WP Rocket" lazy load fixed for AMP.
+- Fixed: "Lazy Load" plugin fixed for AMP.
+- Fixed: "Lazy Load XT" plugin fixed for AMP.
+- Fixed: Youtube count is now showing in social counter.
+- Improved: Minor performance improvement.
+
+
+----------------------------------------------------------------
+-- Version 1.7.3.1 - 13 Feb 2017 - Minor Fix
+----------------------------------------------------------------
+- Added: Language translation field added to Likebox.
+
+- Improved: Single post meta style in mobile improved.
+
+- Fixed: Header 5, 6 and 8 dropdown menu problem in Firefox fixed.
+- Fixed: Quotes style in simple pages fixed.
+- Fixed: bbPress post count is not showing.
+- Fixed: Don't shows empty tags if category slider is not active.
+- Fixed: Author posts page not load fixed.
+- Fixed: Subtitle field is showing in all post types.
+- Fixed: Duplicate should not work in AMP version of site.
+- Fixed: Minor performance improvements.
+- Fixed: Youtube not shown in social counter fixed.
+
+
+----------------------------------------------------------------
+-- Version 1.7.3 - 12 Feb 2017 - AMP Ads, Breadcrumb, Performance
+----------------------------------------------------------------
+- Added: AMP Ad support added to "Better Ads" 
+- Added AMP Ad Location 1: After header (in all pages)
+- Added AMP Ad Location 2: Before post title
+- Added AMP Ad Location 3: After post title
+- Added AMP Ad Location 4: Above post content
+- Added AMP Ad Location 5: Post content ads (After X Paragraph)
+- Added AMP Ad Location 6: Below post content
+- Added AMP Ad Location 7: After comments in posts
+- Added AMP Ad Location 8: Footer (in all pages)
+- Added AMP Ad Location 9: After title in archive pages
+- Added AMP Ad Location 10: After X posts in archive pages
+
+- Added: New level of AMP page validator added.
+  This validator includes all Google AMP rules and will make your site
+  content validated with 99% warranty! 
+  400+ AMP roles will be checked and fixed automatically - No need to pay for validating your site
+
+- Added: WooCommerce support added to BetterAMP 
+         (Shop, Product, Shop Categories, Shop tags and Cart page)
+- Added: Attachment page support added to BetterAMP.
+- Added: Custom CSS field added to BetterAMP.
+
+- Added: Breadcrumb added.
+- Added: Option to show/hide breadcrumb in posts and pages added
+- Added: Option to show/hide post categories in breadcrumb added.
+- Added: Option to show/hide post date in breadcrumb added.
+- Added: Order and Orderby options added to sort images in attachment page.
+- Added: Option to disable subtitle in option panel.
+- Added: New text for "Login to reply" added for post comments, Thanks @karl
+
+- Improved: A lot of performance improvements.
+- Improved: Banners admin changed to be more easy to use.
+- Improved: Banners archive page in admin will shows banner format and type.
+- Improved: BetterAds widget and shortcodes will shows ad format and type to make it easy to select.
+- Improved: Empty ad select box redesigned.
+- Improved: Minor performance improvement in "Better Ads".
+- Improved: A lot of code improvements in "Better Social Counter" to make it easy for future developments.
+- Improved: All layout files structure changed to be more flexible (for future updates)
+- Improved: A lot of style improvements.
+- Improved: Translation panel texts moved to groups to make finding and translating easier.
+- Improved: Option panel fields structure changed to be more easy to use!
+- Improved: Current image will shown in attachment image with appropriate style.
+- Improved: .po file updated.
+
+- Fixed: Critical performance issue fixed in "Better Social Counter" [Important].
+- Fixed: "DOMDocument" not defined class fixed.
+- Fixed: Custom videos are not showing in Better Playlist.
+- Fixed: A lof of code fix and improvement in BetterAMP.
+- Fixed: Undefined function fixed in BetterAMP.
+- Fixed: URL encode added to make sure shared URL will work correctly in social networks in RTL languages (Better AMP).
+- Fixed: Share link changed to pretty permalink (Better AMP).
+- Fixed: rel=amphtml generating for non-AMP pages fixed.
+- Fixed: Showing mega menu in AMP fixed.
+- Fixed: Social share sorter fixed in customizer (BetterAMP).
+- Fixed: WooCommerce template files fixed to load texts from WooCommerce translation.
+- Fixed: Publisher textdomain fixed to enable your for translating admin panels easily.
+- Fixed: Share URL with UTF8 characters will broken in sharing.
+- Fixed: Minor fix for v1.7 migrator.
+- Fixed: WooCommerce order detail page fixed.
+- Fixed: Attachment page Next/Prev bugs when no duplicate post is enable.
+- Fixed: Attachment pages next/prev in RTL fixed.
+- Fixed: blockquotes and pullquotes style fixed.
+- Fixed: Core warning fixed.
+- Fixed: Featured video does not works for shortcodes.
+- Fixed: Embed widget/block fixed.
+
+- Translation Updated: Translation files updated to latest ypu send of us, Thanks
+- Translation Added: German (Austria) translation added.
+- Translation Added: Danish (Denmark) translation added.
+
+
+----------------------------------------------------------------
+-- Version 1.7.2.1 - 31 Jan 2017
+----------------------------------------------------------------
+- Added: Google Adsense "data-ad-format" support added. Thanks @WildRazor
+- Added: Google Adsense Horizontal, Vertical and Rectangle ads support added.
+
+- Improved: Related posts fields improved to show posts count only for simple related post type.
+- Improved: Minor performance improvements.
+
+- Fixed: Google Adsense Ads issue in ajax related posts fixed.
+
+
+----------------------------------------------------------------
+-- Version 1.7.2 - 30 Jan 2017
+----------------------------------------------------------------
+
+- Added: Custom class for posts inside loops added. ( Enables you to customize post style in blocks )
+- Added: Option to select counter for Vimeo ( Followers, Videos or Both!)
+- Added: Advanced option to disable menu "More" feature.
+- Added: 'publisher/headers/list' for adding custom header style from child themes (Devs).
+- Added: 'better-playlist/cache-time' filter added for changing playlists cache time (Devs).
+
+
+- Improved: Share links changed to pretty permalink.
+- Improved: Topbar date improved to try get localized time.
+- Improved: Comments date improved to use comment date as comment time.
+- Improved: Blockquote style improved to have the unique style inside posts and pages.
+- Improved: Blockquote style redesigned for bbPress that enables you to have nested blockquotes
+- Improved: Block tabs style improved in "Clean Design" demo.
+- Improved: Header bottom line changed to 1px for "Classic Blog", "Classic Magazine" and "Clean Video"
+- Improved: Cache plugins minify compatibility improved.
+- Improved: Category bades improved to shown for Custom Post types that support "Category" taxonomy.
+
+
+- Fixed: Vimeo API changes fixed.
+- Fixed: Ads are not showing in content of posts in ajax requests.
+- Fixed: Header background color in "Header style 5, 6 and 8"
+- Fixed: Menu texts color fixed to change search box text color.
+- Fixed: Default post gallery style fixed for clearing row of images.
+- Fixed: Pullquote right style fixed to be sync with "Theme Color"
+- Fixed: Extra requests for /null in retina screens. Thanks @kstockl
+- Fixed: Functions check fixed. Thanks @impactinglabs
+- Fixed: Blocks tabs style improved.
+- Fixed: Thumbnail listing 2 columns style fixed for RTL.
+- Fixed: Header 3, 4 and 7 sticky style fixed.
+- Fixed: Widgets background color fixed in "Clean Design"
+- Fixed: Videos players long height when the width is percentage fixed.
+- Fixed: Visual Composer widgets style in widgetised sidebar (custom sidebars)
+- Fixed: "Started by" fixed in bbPress.
+- Fixed: Post Template 11 warning fixed.
+- Fixed: Css generator minor code warnings
+- Fixed: Taxonomies as tab fixed to accept taxonomies with "-"
+
+
+
+----------------------------------------------------------------
+-- Version 1.7.1.1 - 21 Jan 2017
+----------------------------------------------------------------
+- Fixed: Undefined function in social counter plugin.
+
+----------------------------------------------------------------
+-- Version 1.7.1 - 21 Jan 2017
+----------------------------------------------------------------
+- Added: RTL Demo importer (Clean Tech) added.
+- Added: RTL Demo importer (Pure Magazine) added.
+- Added: 100% RTL support added to all admin pages.
+- Added: Social Counter widgets RTL support added.
+- Added: Viber share button added (only for mobile)
+- Added: Line share button added (only for mobile)
+- Added: BlackBerry BBM share button added (only for mobile)
+- Added: Indonesian translation added.
+- Added: Option to show/hide Publisher adminbar menu (Publisher Panel -> Advanced)
+- Added: Background image and color option added for pages and posts.
+- Added: Option to changed header background color and image of each page.
+
+- Improved: Login widget fixed to show user avatar when user is logged in.
+- Improved: minor improvement in Gallery Slider style.
+- Improved: Comments template improved to break long words!
+- Improved: Social share cache time changed to 2 hour.
+- Improved: The social share counts changed to be disable by default.
+- Improved: Clean Tech demo importer improved.
+- Improved: Clean Design automatic CSS generator fixed.
+- Improved: Clean Fashion style improved.
+- Improved: Clean Tech RTL style improved.
+- Improved: Clean Video style improved.
+
+- Fixed: Gallery slider alt for images fixed. Thanks @Parramagues
+- Fixed: Draft posts shown in category archive page and search result fixed.
+- Fixed: New share buttons style fixed in share widget.
+- Fixed: Social share will open window if possible.
+- Fixed: Minor fix in panel css generator.
+- Fixed: Reviews RTL style fixed.
+- Fixed: Minor compatibility to migrate versions before 1.7
+- Fixed: Bootstrap .row compatibility for columns Gap changer added.
+- Fixed: Attachment page video/audio not shown fixed.
+- Fixed: .jpeg file added to lightbox image extensions.
+- Fixed: Category metabox background field fixed.
+- Fixed: Ajaxified comments shows load comment when comment is disabled
+- Fixed: Publisher "Page templates" menu is showing for authors.
+- Fixed: "Page break" tag style in TinyMCE editor fixed.
+- Fixed: Slider blocks style in RTL.
+- Fixed: "bs-vc-block" style fixed for "Clean Design" and "Clean Tech"
+
+Plugins updated:
+- Better Social Counter v1.6.3
+
+
+----------------------------------------------------------------
+-- Version 1.7.0.4 - 15 Jan 2017
+----------------------------------------------------------------
+
+- Improved: Social share field style in option panel improved.
+
+- Fixed: Social share field is not showin in Visual Composer.
+
+----------------------------------------------------------------
+-- Version 1.7.0.3 - 15 Jan 2017
+----------------------------------------------------------------
+
+- Added: Columns option added to "Thumbnail 2" widget.
+
+- Improved: AMP style improved.
+- Improved: Widget of thumbnail listing 2 to show larger image when it's on primary sidebar and have only 1 column.
+
+- Fixed: Product registration issue fixed.
+- Fixed: Lighbox not works.
+- Fixed: AMP search page style fixed.
+- Fixed: Multilingual site update to v1.7 style issue fixed.
+- Fixed: Custom widgetised sidebars tile is not showing correctly in
+
+
+----------------------------------------------------------------
+-- Version 1.7.0.2 - 13 Jan 2017 - bug fix
+----------------------------------------------------------------
+- Fixed: Category slider wrong posts fixed.
+- Fixed: AMP continuous update notification fixed.
+- Fixed: Page template style is not shwing properly!
+
+
+----------------------------------------------------------------
+-- Version 1.7.0.1 - 13 Jan 2017 - bug fix
+----------------------------------------------------------------
+- Fixed: header sent error fixed.
+- Added: "The SEO Framework" plugin compatibility added.
+
+
+----------------------------------------------------------------
+-- Version 1.7.0 - 13 Jan 2017 - VERY BIG UPDATE
+----------------------------------------------------------------
+
+/** Better AMP **/ live demo: http://demo.betterstudio.com/publisher/amp-demo/
+
+Note: Please note you should regenerate thumbnails again also you should clear permalinks by saving it again!.
+
+- BetterAMP Developed completely from scratch to fix all previous validation issues also to add complete WordPress support.
+- Added: Pages, Categories, Tags, Taxonomies, Search support to AMP added.
+- Added: 2 listing (large and small) added for AMP archive pages.
+- Added: AMP sidebar with navigation and site logo added.
+- Added: Search functionality added to AMP
+- Added: Footer navigation added to AMP
+- Added: Social share + share count added to AMP
+- Added: Comments section added to AMP post
+- Added: Google Analytics added to AMP.
+- Added: AMP customizer panel added to change everything from WP Customizer.
+- Added: Option to exclude pages from AMP added.
+- Added: Slider for homepage added for AMP
+- Added: Translation Panel added to AMP.
+- Added: AMP Compatibility for "W3 total cache", "WP Super Cache" and "WP Rocket" added.
+- Improved: AMP redesigned completely.
+- Fixed: All AMP validation issues fixed.
+
+
+/** 3 Column & Layouts **/
+
+- Added: 3 column layout added ( content column + 2 sidebar ).
+- Added: 6 combination of 3 columns added to use them in pages.
+- Added: 3 column layouts support added to all pages (category, tag, forum, shop…)
+- Added: 3 column layouts support added to all post templates.
+- Added: 5 new "3 Column Homepage" added to all styles (50 homepages totally!)
+- Added: New 2 column layout width changer by drag added.
+- Added: New 3 column layout width changer by drag added.
+- Added: Option to change space between columns added.
+
+
+/** Styles Improvement **/
+
+- Improved: Clean Tech: "Style" & "Demo importer" improved. 
+- Improved: Pure Magazine: "Style" & "Demo importer" improved. 
+- Improved: Clean Fashion: "Style" & "Demo importer" improved. 
+- Improved: Clean Design: "Style" & "Demo importer" improved. 
+- Improved: Clean Video: "Style" & "Demo importer" improved. 
+- Improved: Clean Blog: "Style" & "Demo importer" improved. 
+- Improved: Clean Sport: "Style" & "Demo importer" improved. 
+- Improved: Classic Magazine: "Style" & "Demo importer" improved. 
+- Improved: Classic Blog: "Style" & "Demo importer" improved. 
+- Improved: Clean Magazine: "Style" & "Demo importer" improved. 
+- Improved: Clean Design demo columns space decreased.
+- Improved: Clean Tech demo columns space decreased.
+
+
+/** Other NEW Features **/
+
+- Added: New font selector modal added to enable you to select fonts quickly with instant preview of fonts.
+- Added: Google Early Access Fonts Added.
+- Added: Option to add custom font from panel added.
+- Added: Option to change theme style from option panel (option to change style without importing demo).
+- Added: New Page Templates page added to enable you use pre-made homepages and other pages easily.
+- Added: 5 new contact us template added to each demo (50 new contact us totally) 
+- Added: Query conditions changer added for all listing blocks to change "AND", "OR" relation between cats and tags.
+- Added: Shared count added to social share count.
+- Added: Reddit share button + share count added.
+- Added: StumbleUpon share button + share count added.
+- Added: Digg share button added.
+- Added: VK share button added.
+- Added: Next/Prev posts box added to posts.
+- Added: Author Avatar added to post meta.
+- Added: Taxonomies can be shown in blocks as tab!
+- Added: Stretched header layout added.
+- Added: Ads PSD template file added.
+- Added: Option to Show/Hide excerpt in category and all archive pages.
+- Added: Option to show target for post "Via" links.
+- Added: Option to show target for post "Source" links.
+- Added: Option to show/hide the "More From Author" link in related posts section.
+- Added: Subtitle added for posts and complete compatibility with popular "WP Subtitle" plugins is added.
+- Added: Option to change links color in posts.
+- Added: Option to change links hover color in posts.
+- Added: Option to show/hide subcategories in category archive title.
+- Added: Text listing 3 block added.
+- Added: Text listing 4 block added.
+- Added: RTL image for Panel preview images added.
+- Added: Widget for Text listing 1-4 added.
+- Added: Widget for Text listing 1-3 added.
+- Added: Widget for Modern Grid 3 added.
+- Added: Widget for Modern Grid 4 added.
+- Added: Widget for Mix 7 added.
+- Added: Widget for Mix 8 added.
+- Added: Widget for Mix 9 added.
+- Added: Widget for Mix 10 added.
+- Added: Instagram Widget "2 Column - First Big" style added.
+- Added: Instagram Widget "3 Column - First Big" style added.
+- Added: Option to hide header in page.
+- Added: Option to hide footer in page.
+- Added: Category top posts "Style 17" added.
+- Added: Category top posts "Style 18" added.
+- Added: Category top posts "Style 19" added.
+- Added: Category top posts "Style 20" added.
+- Added: Category top posts "Style 21" added.
+- Added: Icon option added to "Text" VC widget.
+- Added: Icon option added to "Social Share" VC widget.
+- Added: Icon option added to "Text" VC widget.
+- Added: Icon option added to "Popular Categories" VC widget.
+- Added: Icon option added to "MailChimp Newsletter" VC widget.
+- Added: Icon option added to "FeedBurner Newsletter" VC widget.
+- Added: Icon option added to "FB LikeBox" VC widget.
+- Added: Icon option added to "Google Plus" VC widget.
+- Added: Icon option added to "Flickr" VC widget.
+- Added: Icon option added to "Embed" VC widget.
+- Added: Icon option added to "Dribbble" VC widget.
+- Added: Icon option added to "About" VC widget.
+- Added: Icon option added to "Instagram" VC widget.
+- Added: Contact Form 7 plugin 100% compatibility added.
+- Added: License restriction added for demo and page templates.
+- Added: Advanced support of post types (you can set post meta box for custom post type an all metabox fields will work for that post type.)
+- Added: Advanced support of taxonomies( You can set category and tags metabox to any custom taxonomy and all options will works for that)
+- Added: "publisher-theme/localized-items" filter added to filter JavaScript localize items.
+- Added: ["Lightbox"]["not_classes"] field added to Publisher JS localized that enables you to disable LightBox for links that haves a specific class.
+- Added: Compatibility with "WP Reviews" plugin added. If you are using "WP Reviews" then you can deactivate the "Better Reviews" plugin.
+- Added: Option to order posts by "Title" added to all listing blocks.
+- Added: 'widget-have-bg' class for widgets with custom BG Color added.
+- Added: 'widget-have-title-color' class for widgets with custom title color added.
+- Added: 'widget-have-title-bg-color' class for widgets with custom title BG color added.
+- Added: Option to change Excerpt box to default style. 
+- Added: Options to change H1-H6 font color. 
+
+
+/** Other Improvements **/
+
+- Improved: Social share buttons redesigned completely.
+- Improved: Author box in posts.
+- Improved: Admin panel style improved.
+- Improved: The WP excerpt box removed and new excerpt field added after post title to make it easy to use!
+- Improved: You can select separate style for languages in multilingual sites.
+- Improved: Browser link will update in infinity related posts.
+- Improved: Infinity related posts will send post view for Google Analytics. 
+- Improved: Google custom search result page design improved.
+- Improved: Panel options images improved.
+- Improved: Newsletter widgets redesign and improved.
+- Improved: Post template 6 style improved.
+- Improved: Instagram widget style improved.
+- Improved: Instagram widget image sizes improved to load smaller image as possible.
+- Improved: Panel listings image added for Blocks settings to make it easy for use.
+- Improved: Modern grid 3 and 4 style improved to work better in width smaller than 250px
+- Improved: Modern Grid Listing 4: 3 column style for small sizes improved.
+- Improved: Single post category badges style.
+- Improved: Post template 5 improved.
+- Improved: Minor performance improvements.
+- Improved: Sticky sidebar improved to work smother in 3 column layout.
+- Improved: Columned links mega menu style improved.
+- Improved: Modern Grid 9 style improved.
+- Improved: Popular categories widget style improved.
+- Improved: Translation files will be loaded from our server to enable us for changing and updating them qucikly.
+- Improved: WooCommerce shortcode columns improved.
+- Improved: Style of "Blog listing 1" improved.
+- Improved: Publisher menu items order improved.
+- Improved: Visual Composer blocks title compatibility improved.
+- Improved: VC Text Block style improved.
+- Improved: Taxonomies archive title section improved.
+- Improved: Help added for "bs-products-1" when WooCommerce is not installed.
+- Improved: Post templates improved to show external audio player after the featured image.
+- Improved: Post templates improved to show video/audio embeds in more templates.
+- Improved: bbPress posts link color fixed.
+- Improved: Author name improved to not be longer than 110px on listings and 150px in single posts.
+- Improved: The meta moved to under title in Thumbnail listing 1 & 2.
+- Improved: TinyMCE editor improved to recognize 3 column layouts and show the sidebars behind the content.
+- Improved: Social meta tags generator improved to detect more SEO plugins.
+- Improved: Social meta tags improved to show default thumbnail in social sharing!
+- Improved: Social meta tags improved to have more compatibility with third-party SEO plugins.
+- Improved: A lot of minor performance improvements
+- Improved: Admin panels RTL style improved.
+- Improved: Facebook comments will shown even when comments are no open!
+- Improved: Disqus comments will shown even when comments are no open!
+- Improved: Reviews improved to add "review-top" & "review-bottom" class to review boxed.
+- Improved: Reviews snippet improved.
+- Improved: Reviews style improved.
+- Improved: Ads manager will shows appropriate message when yo didn't selected any ad or campaign.
+- Improved: Ads Manager will shows a link to select banner or campaign when you view pages.
+- Improved: .pot file updated.
+
+
+/** Fix **/
+
+- Fixed: All WPML compatibility issues fixed (menu selector and style ...)
+- Fixed: WPML category colors are not saving in multilingual fixed.
+- Fixed: WooCommerce product and category metabox fixed.
+- Fixed: Ajax tabs are not clickable.
+- Fixed: Better Gallery style fixed.
+- Fixed: Better Gallery RTL style fixed.
+- Fixed: Content columns props not cleared.
+- Fixed: Options not working for WooCommerce shop pages.
+- Fixed: Visual Composer tabs with Publisher blocks issue fixed.
+- Fixed: Visual composer stretched row issue on Mac/Firefox and Windows/Edge fixed (RTL).
+- Fixed: WooCommerce search result page fixed.
+- Fixed: Mix 10-17 small blocks image fixed.
+- Fixed: Share links fixed to open in new tab in FireFox and also not open in same page when user clicks on multiple items.
+- Fixed: Multi tab in page not works fixed.
+- Fixed: Better Gallery long description error fixed.
+- Fixed: Typography tab performance fixed and it loads 500% quicker!
+- Fixed: Homepage blocks custom styles are not showing after demo import.
+- Fixed: Modern Grid 10 blocks settings is now showing.
+- Fixed: Youtube playlist 25 video limitation fixed (New Youtube restriction).
+
+
+/** Plugin Compatibility's Added **/
+
+- "WP Reviews" plugin compatibility added.
+- "WP Subtitle" plugin compatibility added.
+- "Contact Form 7" plugin compatibility added.
+- "If Menu" plugin compatibility added.
+- "Menu Image" plugin compatibility added.
+- "Nav Menu Roles" plugin compatibility added.
+- "Ultimate Member" plugin compatibility added.
+
+
+/** Translations **/
+
+- Added: "Dutch (Netherlands)" Translation added.
+= Added: "French (Belgium)" Translation added.
+- Added: "Arabic (Egypt)" Translation added.
+- Updated: "Persian (Iran)" translation updated.
+- Updated: "Turkish (Turkey)" translation updated.
+- Updated: "Polish" translation updated.
+- Updated: "Russian" translation updated.
+- Updated: "French" translation updated.
+- Updated: "Vietnamese" translation updated.
+- Updated: "Greek" translation updated.
+- Updated: "Portuguese (Brazil)" translation updated.
+- Updated: "Thai (Thailand)" translation updated.
+- Updated: "Romanian (Romania)" translation updated.
+
+
+/** Plugin Updated **/
+- Better Reviews - updated to v1.2
+- Better Facebook Comment - updated to v1.4.1
+- Better Disqus Comments - updated to v1.1.1
+- Better Google Custom Search - updated to v1.1.1
+- Better Playlist - updated to v1.3.1
+- Slider Revolution - updated to v5.3.1.5
+
+
+/---------------------------------------------------------------
+----------------------------------------------------------------
+-- Version 1.6.4 - 23 Dec 2016
+----------------------------------------------------------------
+---------------------------------------------------------------/
+- Fixed: Sub-menus are not clickable in responsive menu fixed.
+- Fixed: Clean Design demo style fixed.
+- Fixed: Buttons style problem with third-party plugins fixed.
+- Fixed: footer warning.
+- Fixed: Arabic translation fixed
+- Fixed: Better Gallery extra line issue fixed.
+
+----------------------------------------------------------------
+Version 1.6.3 - 12 Dec 2016
+----------------------------------------------------------------
+- Fixed: Post template 7 image fixed.
+- Fixed: call_user_func_array warning fixed.
+
+----------------------------------------------------------------
+Version 1.6.2 - 12 Dec 2016
+----------------------------------------------------------------
+- Added: Admin navbar menu changed to can disable it.
+- Added: Ajax pagination in blocks works changed to work properly when “Remove Duplicate Posts” is active..
+
+- Improved: Mega menu items will have appropriate style in "More menu"
+- Improved: Minor style improvements.
+- Improved: WordPress old versions support improved.
+- Improved: Minor performance improvements.
+- Improved: Admin RTL style improved.
+- Improved: Mega menu height functionality improved to prevent height jumping while change the tab.
+
+- Fixed: Google Adsense not works in IE.
+- Fixed: Clean Sport demo installer fixed.
+- Fixed: Menu sub menu drops fixed.
+- Fixed: Archive pages pagination is not working properly.
+
+- Updated: .pot file updated.
+
+- Plugins updated:
+—- Better Ads Manager
+
+----------------------------------------------------------------
+Version 1.6.1 - 9 Dec 2016
+----------------------------------------------------------------
+- Added: RTL style for new Modern Grid Listings.
+
+- Fixed: Sub menu hover fixed.
+- Fixed: Responsive header sticky top extra margin removed.
+- Fixed: Classic magazine widgets heading fixed.
+- Fixed: VC content listings tab and category realtime filter not works properly.
+- Fixed: Multiple tags not working properly fixed.
+- Fixed: Excerpt functionality fixed.
+
+
+----------------------------------------------------------------
+Version 1.6.0 - 7 Dec 2016
+----------------------------------------------------------------
+- Redesigned: Section heading of main demo and "Clean Blog" demo redesigned.
+- Redesigned: Ajax Next/Prev buttons redesigned.
+- Redesigned: Tabbed mega menu redesigned.
+- Redesigned: Playlist 1 redesigned.
+- Redesigned: Gallery slider redesigned completely.
+
+- Added: “Pure Magazine” demo & style added. 
+- Added: Main menu will collect all extra items into “More” menu item. Can be use full for when you have a lot of menu items and also in small screen devices.
+- Added: “Exclude category” for all listing blocks.
+- Added: Ability to select multiple category for listing blocks also ability to select primary category for each block.
+- Added: Modern Grid 7 added.
+- Added: Modern Grid 8 added (WIDE Block).
+- Added: Modern Grid 9 added (WIDE Block).
+- Added: Modern Grid 10 added (WIDE Block).
+- Added: Debug report for demo installer added.
+- Added: 10 New Translation added.
+- Added: Publisher menu to front end added (again).
+
+- Improved: RTL style animations.
+- Improved: Post content can use Content Listings without problem.
+- Improved: Excerpt improved to be shown when post content is shortcode.
+- Improved: Publisher shortcodes icon moved to first row in editor.
+- Improved: VC custom params improved.
+- Improved: Overflowed tabs will pulled blocks content fixed.
+- Improved: Minor performance improvements.
+- Improved: Text listing 1 style improved.
+- Improved: Only 1 H1 tag will be on pages that needed.
+
+- Fixed: Minor social counter error fixed.
+- Fixed: install demo content array issues
+- Fixed: WooCommerce files escape fixed.
+- Fixed: Minor code warnings
+- Fixed: Demo content importing extra social icons in topbar and footer fixed.
+- Fixed: Tag not shown fixed.
+- Fixed: Ajax pagination not working.
+- Fixed: WooCommerce functions check fixed.
+- Fixed: Undefined class error in very special hosting fixed.
+- Fixed: Demo installation fail in old WP versions.
+- Fixed: System report shows nothing for cache plugin.
+- Fixed: Undefined index review.
+
+- Translation Added: Greek - Thanks Apapac
+- Translation Added: Bangali - Thanks s3py
+- Translation Added: Malay (Malaysia) - Thanks Fikri 
+- Translation Added: Akan - Thanks DminLove
+- Translation Added: Arabic (Morocco) - Thanks Afkaraena
+- Translation Added: Portuguese (Brazil) - Thanks Julio
+- Translation Added: Vietnamese (Vietnam) - Thanks Huyle
+- Translation Added: Urdu (Pakistan) - Thanks Din
+- Translation Added: Hungarian (Hungary) - Thanks Safranyn
+- Translation Added: Romanian (Romania) - Thanks Claudiu
+- Translation Corrected: Arabic (Saudi Arabia) - Thanks Abou Hatam
+- Translation Corrected: French (France) - Thanks Super Poney
+- Translation Corrected: Russian (Russia) - Thanks Asman
+- Translation Corrected: German - Thanks Knut
+- Translations: New words added (All translations updated for new words).
+
+- Plugins updated:
+—- Better Play List
+—- Better Social Counter
+
+----------------------------------------------------------------
+Version 1.5.1 - 26 Nov 2016
+----------------------------------------------------------------
+- Added: Custom taxonomy support added to all listings.
+- Added: 'publisher/login/redirect' filter added for changing login widget redirect URL.
+
+- Improved: Facebook comments count in all listings will shown quicker now.
+- Improved: Custom post type support improved for all listings.
+- Improved: Topbar and Footer default active social sites improved for new installations.
+- Improved: Slider 1 style improved.
+- Improved: Clean Video style improved.
+- Improved: Clean Tech style improved.
+- Improved: Clean Design style improved.
+- Improved: Clean Blog style improved.
+- Improved: theme option panel improved.
+
+- Fixed: Listings custom post ID's conflict with "remove duplicate posts" fixed.
+- Fixed: Topbar sign-in color & typo improved in al styles.
+- Fixed: Post views Javascript error fixed.
+- Fixed: Text listing 2 title limit fixed.
+
+- Plugins updated:
+—- Better Post Views
+—- Better Facebook Comments
+
+
+----------------------------------------------------------------
+Version 1.5 - 23 Nov 2016
+----------------------------------------------------------------
+- Added: Topbar "Sign in/ Join" functionality added.
+- Added: "Login" Widget added.
+- Added: "Login" Visual Composer add-on added.
+- Added: Mailchimp Newsletter widget added.
+- Added: Mailchimp Newsletter Visual Composer add-on added.
+- Added: After receiving a lot of question about social counter setup we developed completely “Better Social Counter” completely from scratch to remove all setup fields. From this update only you need to enter your username!
+
+- Added: Option to show hide Tags in post.
+- Added: Option to limit tags count in post.
+- Added: Option to change category count in posts.
+- Added: Option to show/hide post format icon in posts.
+- Added: Option to change category count in all listings.
+- Added: Option to show/hide "Mix 10-18" excerpts added.
+- Added: .ltr class will be added to body for LTR style for more customization.
+
+
+- Updated: FontAwesome updated to v4.7 (41 new icon added)
+
+
+- Improved: Views counter performance improved.
+- Improved: Post views count will be updated even when cache plugin is active. Visitors will see last and updated views count. 
+
+- Improved: Yoast SEO plugin compatibility improved to get primary category from that plugin.
+
+- Improved: Social Share improved to work smarter.
+- Improved: Alt for thumbnails images.
+- Improved: VC Add-on icon redesigned.
+- Improved: Ads manager code improved.
+- Improved: Back top button position improved in RTL
+- Improved: Admin style improved.
+- Improved: Style improved.
+- Improved: RTL style.
+- Improved: Performance improved.
+- Improved: Links style in posts and pages.
+- Improved: Custom Menu widget style improved.
+- Improved: Publisher last versions compatibility functionality improved.
+- Improved: Meta tags improved to work better in FB and Twitter.
+- Improved: Rich snippets improved.
+
+
+- Fixed: Demo installation fail in old WP versions.
+- Fixed: Plugin installer improved to fix errors in installation.
+- Fixed: W3 validator warnings fixed.
+- Fixed: Ajax related posts algorithm fixed.
+- Fixed: Header top & bottom padding fields fixed.
+- Fixed: Social share widget style fixed (outlined buttons)
+- Fixed: Facebook and Disqus comments style in "Clean Design" and "Clean Tech" fixed.
+- Fixed: pages thumbnail problem fixed.
+- Fixed: Pages top extra space fixed.
+- Fixed: Fontawesome conflict with Visual Composer.
+- Fixed: WPML - Options for other languages are not changing.
+- Fixed: Facebook fixed share fixed for small images.
+- Fixed: Draft posts are showing in ajax loaded posts.
+- Fixed: Only one category shown in posts.
+- Fixed: Tabs and Accordions shortcodes fixed.
+
+
+- Plugins updated:
+—- Better Ads Manager
+—- Better Social Counter
+—- Better Post Views
+—- Visual Composer
+
+
+
+----------------------------------------------------------------
+Version 1.4.4.1 - 17 Nov 2016
+----------------------------------------------------------------
+- Fixed: minor code warning fixed.
+
+
+----------------------------------------------------------------
+Version 1.4.4 - 17 Nov 2016
+----------------------------------------------------------------
+- Fixed: Social share buttons link fixed.
+
+
+----------------------------------------------------------------
+Version 1.4.3 - 17 Nov 2016
+----------------------------------------------------------------
+- Improved: Social share improved to share better name and link for pages, categories, tags and home.
+- Improved: Meta tags improved to work better in FB and Twitter.
+- Improved: Rich snippets improved.
+
+- Fixed: All pages content is same when topbar-2 is selected!
+- Fixed: minor code warning
+- Fixed: warning about revslider query.
+
+
+----------------------------------------------------------------
+Version 1.4.2 - 15 Nov 2016
+----------------------------------------------------------------
+- Fixed: Tabs and Accordions shortcodes fixed.
+- Fixed: Twitter share link for Arabic languages.
+
+
+----------------------------------------------------------------
+Version 1.4.1 - 14 Nov 2016
+----------------------------------------------------------------
+- Improved: Tabbed mega menu subcategories will be shown in Responsive Header.
+- Improved: After installing plugins in page will refresh to show menus.
+
+- Fixed: excerpt now showing fixed.
+- Fixed: Twitter share link fixed.
+- Fixed: WhatsApp share link fixed.
+- Fixed: Demo uninstaller is removing custom css code.
+- Fixed: Demo uninstaller failed fixed. 
+
+----------------------------------------------------------------
+Version 1.4.0 - 14 Nov 2016
+----------------------------------------------------------------
+** Performance Improvement **
+We developed about 50% of Publisher theme from scratch to improve performance
+and the result is this. Also we will optimize it again in next updates.
+  - 50% quicker in home page.
+  - 65% quicker in category and single pages
+  - 400% quicker theme option panel.
+  - 100% quicker in category and posts edit page.
+
+- Added: PHP 7 Compatibility added.
+- Added: Option to show/hide Google Adsense ads inside search page.
+- Added: Translation for name of Social Networks in Better Social Counter.
+- Added: Text Logo typography added. (is disabled by default)
+- Added: Headings (h1-h6) typography options added.
+- Added: Favicon added: Theme Options -> Advanced -> Favivon
+- Added: @username to end of twitter share text.
+- Added: Exclude category option added to Popular Categories widget.
+- Added: Multiple "Source" for posts.
+- Added: Multiple "Via" for posts.
+- Added: Options to show/hide settings of mega menu posts.
+- Added: Options to show/hide settings of related posts section.
+- Added: Option to show/hide reviews in all blocks and listings.
+- Added: Options to select show/hide pages title and footer when Visual Composer used inside their content.
+- Added: External Video support added for posts.
+- Added: External Audio support added for posts.
+- Added: Option to show post first image as post thumbnail when post have not thumbnail.
+
+- Improved: Playlist 2 style improved.
+- Improved: AMP panel and codes improved.
+- Improved: Reviews performance improved.
+- Improved: Google Custom Search plugins codes improved.
+- Improved: Playlist 2 style improved.
+- Improved: Playlist plugin performance improved.
+- Improved: Post views plugin performance improved.
+- Improved: Weather plugin performance improved.
+- Improved: Weather plugin panel improved.
+- Improved: Social Counter plugin performance improved.
+- Improved: Social counter panel usage improved.
+- Improved: Social counter panel documentation improved.
+- Improved: Ads manager performance improved.
+- Improved: Ads manager banners metabox improved.
+- Improved: Ads manager Google Adsense code improved.
+- Improved: Archive titles style improved.
+- Improved: Recent posts style improved.
+- Improved: Twitter share change to show better share text.
+- Improved: IE style improved
+- Improved: Facebook comments template.
+- Improved: Disqus comments template.
+- Improved: Clean Design Demo style improved.
+- Improved: Duplicate posts removal functionality improved to not count posts inside mega menus!
+- Improved: RTL Style.
+- Improved: Live Ajax search style improved.
+- Improved: Modern Grids responsive style improved.
+- Improved: Modern Grids simple overlay style improved.
+- Improved: Clean Tech Demo style improved.
+- Improved: Clean Design Demo style improved.
+- Improved: Sticky sidebar functionality improved.
+- Improved: Post Template 13 style improved.
+- Improved: Ad locations stye improved.
+
+- Updated: All 24 theme translations updated and improved.
+
+- Fixed: Facebook, Google+ followers count not showing!
+- Fixed: Pagination ajax not works in some PHP versions fixed.
+- Fixed: Rich Snippet errors fixed.
+- Fixed: Facebook comments numbers not changes in listings.
+- Fixed: Disqus comments numbers not changes in listings.
+- Fixed: Translation fields fixed and improved.
+- Fixed: Header 5, 6 and 8 padding issue in Firefox.
+- Fixed: Comment form inputs placeholders fixed in Firefox.
+- Fixed: IE next/prev button issue fixed.
+- Fixed: Draft post shown in related posts.
+- Fixed: default thumbnail fixed in mix listings and post contents.
+- Fixed: Posts template not change problem fixed.
+- Fixed: Memory limit error in some category pages.
+- Fixed: "After Tags, Before Author Box" ad location fixed.
+- Fixed: Pages share button style fixed.
+- Fixed: RTL resource from a consistent URL issue fixed.
+‫-‬ Fixed: A lot of code simple issues.
+
+----------------------------------------------------------------
+Version 1.3.1 - 2 Nov 2016
+----------------------------------------------------------------
+- Added: Random order for related posts added.
+
+- Fixed: New Ad Locations style fixed.
+- Fixed: Google Adsense fix for third party plugins integration like Social Locker added in post inline.
+- Fixed: option for single column width fixed.
+
+- Improved: Enter lock inside TinyMCE issue on Alert & Intro shortcodes fixed.
+ 
+
+----------------------------------------------------------------
+Version 1.3 - 2 Nov 2016
+----------------------------------------------------------------
+- Added: Live Search With Ajax added.
+
+- Added: Blocks settings panel to everything of change blocks/listings
+         Here: Publisher -> Theme Options -> Blocks and Listings 
+         1. Change limit of title and excerpt texts length
+         2. Hide/show category badges
+         3. Hide/show post meta and each you want (author,date,comments)
+         4. Hide/show read more buttons
+         5. Hide/show post format icons
+
+- Added: New Ad locations added
+         1. "After Header" ad location ( usable can be used for mobiles ).
+         1. "Before Footer" ad location.
+         1. "Between Ajax Loading Posts" ad location.
+         1. "After Tags, Before Author Box" ad location added.
+
+- Added: Advanced and detailed options to change Google Adsense Responsive size.
+         This will takes your ads management into new level.
+
+- Added: New post sharing positions: 1- Bottom  2- Top & Bottom
+- Added: WhatsApp added to post sharing buttons.
+- Added: Option to change main menu hover color.
+- Added: Option to change main menu -> sub menu color.
+
+- Improved: Google Adsence codes improved to load correctly inside ajax/infinity related posts.  
+- Improved: Topbar date background color field usability improved.
+- Improved: Post sharing field style improved.
+- Improved: HTTPS support added to "Subscribe Newsletter" widget.
+- Improved: Topbar date improved to work with local languages! (Thanks pacaldi)
+- Improved: Reviews RTL style improved.
+
+- Fixed: Google Adsense HTTPS support fixed.
+- Fixed: Inline ads improved to work better, quicker and safer.
+- Fixed: The "Custom Code" Ads type not showing bug fixed.
+- Fixed: Columned mega menu style fixed
+- Fixed: Post Template 13 style fixed.
+- Fixed: Minor code warnings.
+- Fixed: Ads style late loading issue fixed.
+
+- Updated Plugins: 
+         1. BetterAds v1.5
+         2. BetterReviews v1.0.6.4
+
+Note: From this version updates for plugins will be live and it enables us to publish critical updates when they needed.
+
+
+----------------------------------------------------------------
+Version 1.2 - 29 Oct 2016
+----------------------------------------------------------------
+- Improved: Responsive Design improved totally!
+- Fixed: Theme registration, demo and plugin installation error fixed.
+
+- Added: HTTPS support added to Schema.org Rich Snippets.
+
+- Improved: re="nofollow" added to social share buttons.
+- Improved: Related posts style improved.
+
+- Fixed: Translation panel fields title fixed.
+- Fixed: Social meta tags excerpt truncate fixed
+
+- Updated Plugin: Better Ads Manager.
+
+
+----------------------------------------------------------------
+Version 1.1 - 28 Oct 2016
+----------------------------------------------------------------
+- Added: Smart Google Adsense Responsive Ads support added. Shows your ads in the best way!
+- Added: Header Logo Ad location added to Ad Manager to mange it easily!
+- Added: Options to hide Youtube/Vimeo playlists heading.
+- Added: Import and Export functionality added to "Ads Manager" panel.
+
+- Improved: Content Listings except changed to support unicodes and count text by character length not the words length to fix long text problem.
+- Improved: WP Categories widget style improved.
+- Improved: You can remove the editor shortcodes button by this filter: "publisher-theme-core/editor-shortcodes/shortcodes-array”.
+- Improved: The structure of "Ads Manager" panel changed and now you can add custom options to panel with "better-ads/options" filter.
+
+- Fixed: Social share buttons bug fixed.
+- Fixed: Players, iFrames and Google Ads half height problem fixed.
+- Fixed: Warnings about references fixed.
+- Fixed: Responsive header bottom line color.
+- fixed: Listings empty p removed to fix third party plugins of TinyMCE and our shortcodes!
+- Fixed: Ajaxified comment not working fixed.
+- Fixed: Post Template 13 related posts and comments style fixed.
+- Fixed: Code editor field fixed to can add HTML codes inside it.
+- Fixed: Text padding arrows fixed in TinyMCE Shortcodes menu.
+
+- Removed: Aside Logo sidebar location removed to make theme usability easy.
+
+
+----------------------------------------------------------------
+Version 1.0.0 - 26 Oct 2016
+----------------------------------------------------------------
+- Public release.
+
